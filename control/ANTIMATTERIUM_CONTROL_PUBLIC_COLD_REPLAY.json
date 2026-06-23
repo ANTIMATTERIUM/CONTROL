@@ -1,0 +1,55 @@
+{
+  "schema": "ANTIMATTERIUM_CONTROL_PUBLIC_COLD_REPLAY",
+  "object": "ANTIMATTERIUM_CONTROL",
+  "control_version": "0.1.0",
+  "control_mode": "public_cold_replay",
+  "controlled_public_repositories": {
+    "core": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM.git",
+    "www": "https://github.com/ANTIMATTERIUM/WWW.git",
+    "org_profile": "https://github.com/ANTIMATTERIUM/.github.git"
+  },
+  "public_releases": {
+    "core": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.11-antimatterium-public-chain-os",
+    "www": "https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.7-antimatterium-www-public-chain-os-surface",
+    "org_profile": "https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.5-antimatterium-org-profile-public-chain-os-surface"
+  },
+  "npm": {
+    "package": "https://www.npmjs.com/package/@antimatterium/antimatterium",
+    "version": "0.2.2"
+  },
+  "bound_identifiers": {
+    "root_controller_id": "d2813e2a241a8a95dc7790174ba4522f9c2a4e66face80bf76acaa4363575663",
+    "core_chain_os_id": "d0f3271f3808297cc8459bc0e19f0df5b5bce60c32bad87c56fb96b7b72cb577",
+    "www_chain_os_surface_id": "15f958d4cc1c6cc8bc279f4c77eb2e2a8fd387b2451c40415703f640d610b404",
+    "profile_chain_os_surface_id": "13026b98a28d76d78d1ccdebe85013e0c9f87855fa59d27328dd298e3e4a2575",
+    "org_profile_receipt_id": "e07a15bd0cf976e1864a1c2ea56c10e90b716bcfb20a935e85c2628a4457e96b",
+    "www_surface_receipt_id": "652a71c7a591d9c99e5781d154f5d3ff7fd5a78ed6d4529e220f50c902adf321",
+    "npm_receipt_id": "780244fd953ed99fb20cd7cebade4c73b3dc5ade4f070bb37753281c5ca2e7aa",
+    "verifier_id": "59972b8a13e1d1896e76ad44f18a5d5ca58595afd624842d4557f2557a69696b",
+    "audit_id": "fcadd3a654978081f7ab9a4e775d1ee1d4e2960c14a5812cd2c349f862959d30",
+    "control_digest": "bb75f4462f42f37b5fd2faa5d511dd90213df9f60997f16b5875b80a8f99b0b6",
+    "runtime_event_id": "f4923422f6f97910816b685376aacf9697222a6c09b1c0cabdb63419c07616d7",
+    "replay_id": "63a62592964d5c8fe2c23d8be06972eef297446d5708c898868dadae4bb92319"
+  },
+  "cold_replay_commands": {
+    "verify": "npm run verify",
+    "cold_replay": "bash scripts/cold-replay.sh"
+  },
+  "acceptance": {
+    "public_clone_replay_supported": true,
+    "core_public_chain_os_bound": true,
+    "www_public_chain_os_surface_bound": true,
+    "org_profile_public_chain_os_surface_bound": true,
+    "npm_022_publication_bound": true,
+    "public_release_tags_bound": true,
+    "canonical_www_index_bound": true,
+    "root_controller_bound": true
+  },
+  "boundaries": {
+    "NO_CURRENT_PRODUCTION_CLAIM": true,
+    "NO_STARSHIP_CLAIM": true,
+    "NO_PHYSICAL_PRODUCTION_INSTRUCTIONS": true,
+    "NON_PUBLIC_INFORMATION_EXCLUDED": true
+  },
+  "control_cold_replay_id": "d6d5816e7346b5e663a8c9d1cebff94853a6fcc9c756697d861271180be7de55"
+}
