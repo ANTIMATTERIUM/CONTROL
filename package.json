@@ -1,13 +1,14 @@
 {
   "name": "@antimatterium/control",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "type": "module",
   "description": "ANTIMATTERIUM public cold-replay control plane",
   "scripts": {
-    "verify": "node scripts/verify-control.mjs && node scripts/scan-public-safety.mjs",
+    "verify": "node scripts/verify-control.mjs && node scripts/scan-public-safety.mjs && node scripts/verify-ci-gate.mjs",
     "replay": "bash scripts/cold-replay.sh",
-    "scan": "node scripts/scan-public-safety.mjs"
+    "scan": "node scripts/scan-public-safety.mjs",
+    "verify:ci": "node scripts/verify-ci-gate.mjs"
   },
   "bin": {
     "antimatterium-control-replay": "scripts/cold-replay.sh"

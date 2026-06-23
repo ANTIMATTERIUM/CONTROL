@@ -1,0 +1,47 @@
+{
+  "schema": "ANTIMATTERIUM_CONTROL_PUBLIC_CI_REPLAY_GATE",
+  "object": "ANTIMATTERIUM_CONTROL",
+  "control_version": "0.1.1",
+  "prior_control_release": "https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.1.0-antimatterium-control-public-cold-replay",
+  "gate_mode": "github_actions_verify_and_cold_replay",
+  "workflows": {
+    "verify": ".github/workflows/verify.yml",
+    "cold_replay": ".github/workflows/cold-replay.yml"
+  },
+  "public_releases": {
+    "control": "https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.1.0-antimatterium-control-public-cold-replay",
+    "core": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.11-antimatterium-public-chain-os",
+    "www": "https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.7-antimatterium-www-public-chain-os-surface",
+    "org_profile": "https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.5-antimatterium-org-profile-public-chain-os-surface"
+  },
+  "bound_identifiers": {
+    "control_cold_replay_id": "d6d5816e7346b5e663a8c9d1cebff94853a6fcc9c756697d861271180be7de55",
+    "root_controller_id": "d2813e2a241a8a95dc7790174ba4522f9c2a4e66face80bf76acaa4363575663",
+    "core_chain_os_id": "d0f3271f3808297cc8459bc0e19f0df5b5bce60c32bad87c56fb96b7b72cb577",
+    "www_chain_os_surface_id": "15f958d4cc1c6cc8bc279f4c77eb2e2a8fd387b2451c40415703f640d610b404",
+    "profile_chain_os_surface_id": "13026b98a28d76d78d1ccdebe85013e0c9f87855fa59d27328dd298e3e4a2575"
+  },
+  "npm": {
+    "version": "0.2.2"
+  },
+  "required_commands": [
+    "npm run verify",
+    "npm run replay"
+  ],
+  "ci_acceptance": {
+    "verify_workflow_present": true,
+    "cold_replay_workflow_present": true,
+    "workflow_dispatch_enabled": true,
+    "pull_request_gate_enabled": true,
+    "push_main_gate_enabled": true,
+    "scheduled_cold_replay_enabled": true,
+    "public_clone_replay_required": true
+  },
+  "boundaries": {
+    "NO_CURRENT_PRODUCTION_CLAIM": true,
+    "NO_STARSHIP_CLAIM": true,
+    "NO_PHYSICAL_PRODUCTION_INSTRUCTIONS": true,
+    "NON_PUBLIC_INFORMATION_EXCLUDED": true
+  },
+  "ci_replay_gate_id": "11ab5ba82c3333386871508827f12ab6c614c973934f99f3d878d3c2ebaba673"
+}

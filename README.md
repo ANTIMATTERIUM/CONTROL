@@ -27,3 +27,22 @@ NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true
 NON_PUBLIC_INFORMATION_EXCLUDED=true
 ```
 
+
+## CI Replay Gate
+
+CONTROL v0.1.1 adds two public GitHub Actions gates:
+
+```text id="v6wpbz"
+verify.yml
+cold-replay.yml
+````
+
+The verify gate runs on push, pull request, and manual dispatch.
+
+The cold replay gate runs on push, pull request, manual dispatch, and a weekly schedule.
+
+```bash
+npm run verify
+npm run replay
+```
+
