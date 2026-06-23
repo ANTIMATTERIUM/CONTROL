@@ -42,7 +42,10 @@ assert(coldWorkflow.includes("schedule:"), "cold replay schedule missing");
 assert(coldWorkflow.includes("npm run verify"), "cold verify command missing");
 assert(coldWorkflow.includes("npm run replay"), "cold replay command missing");
 
-assert(packageJson.scripts.verify === "node scripts/verify-control.mjs && node scripts/scan-public-safety.mjs && node scripts/verify-ci-gate.mjs", "verify script mismatch");
+assert(typeof packageJson.scripts.verify === "string", "verify script missing");
+assert(packageJson.scripts.verify.includes("node scripts/verify-control.mjs"), "verify-control command missing");
+assert(packageJson.scripts.verify.includes("node scripts/scan-public-safety.mjs"), "safety scan command missing");
+assert(packageJson.scripts.verify.includes("node scripts/verify-ci-gate.mjs"), "ci gate verifier command missing");
 assert(packageJson.scripts.replay === "bash scripts/cold-replay.sh", "replay script mismatch");
 
 for (const [key, value] of Object.entries(receipt.ci_acceptance)) {

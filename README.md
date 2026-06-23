@@ -46,3 +46,22 @@ npm run verify
 npm run replay
 ```
 
+
+## CI Evidence Seal
+
+CONTROL v0.1.2 seals successful GitHub Actions runs into a public evidence receipt.
+
+```bash
+npm run verify
+````
+
+The receipt binds:
+
+```text id="b7a77i"
+verify workflow success
+cold-replay workflow success
+GitHub Actions run URLs
+main branch evidence
+head SHA evidence
+```
+
