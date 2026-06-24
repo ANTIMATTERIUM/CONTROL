@@ -78,3 +78,18 @@ Core, WWW, and org profile point back to CONTROL.
 ANTIMATTERIUM_BIDIRECTIONAL_PUBLIC_CHAIN_CLOSED=true
 ````
 
+
+## Stranger Final Audit
+
+CONTROL v0.1.4 adds a stranger-verifiable final audit bundle.
+
+```bash
+npm run audit:final
+````
+
+The audit performs fresh public clones of CONTROL, Core, WWW, and org profile at their public closure tags, then replays the public verification chain.
+
+```text
+ANTIMATTERIUM_STRANGER_FINAL_AUDIT_PASS=true
+```
+
