@@ -1,0 +1,45 @@
+name: ANTIMATTERIUM Stranger Final Audit
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * 1"
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  stranger-final-audit:
+    name: Stranger final audit
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout CONTROL
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Verify CONTROL chain
+        run: npm run verify
+
+      - name: Run stranger final audit
+        run: npm run audit:final
+
+      - name: Emit public audit markers
+        run: |
+          echo "ANTIMATTERIUM_PUBLIC_STRANGER_CI_PASS=true"
+          echo "ANTIMATTERIUM_STRANGER_FINAL_AUDIT_PASS=true"
+          echo "ANTIMATTERIUM_BIDIRECTIONAL_PUBLIC_CHAIN_CLOSED=true"
+          echo "NO_CURRENT_PRODUCTION_CLAIM=true"
+          echo "NO_STARSHIP_CLAIM=true"
+          echo "NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true"
