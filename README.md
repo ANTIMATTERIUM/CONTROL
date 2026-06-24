@@ -107,3 +107,16 @@ npm run audit:final
 ANTIMATTERIUM_CONTROL_PUBLIC_RELEASE_MATRIX_VERIFY_PASS=true
 ```
 
+
+## Public Stranger CI
+
+CONTROL v0.1.6 adds a public GitHub Actions workflow that runs the stranger final audit from public release tags.
+
+```bash
+gh workflow run stranger-final-audit.yml --repo ANTIMATTERIUM/CONTROL --ref main
+````
+
+```text
+ANTIMATTERIUM_PUBLIC_STRANGER_CI_PASS=true
+```
+
