@@ -65,3 +65,16 @@ main branch evidence
 head SHA evidence
 ```
 
+
+## Bidirectional Public Closure
+
+CONTROL v0.1.3 closes the public loop:
+
+CONTROL points to Core, WWW, and org profile.
+
+Core, WWW, and org profile point back to CONTROL.
+
+```text
+ANTIMATTERIUM_BIDIRECTIONAL_PUBLIC_CHAIN_CLOSED=true
+````
+
