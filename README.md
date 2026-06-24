@@ -93,3 +93,17 @@ The audit performs fresh public clones of CONTROL, Core, WWW, and org profile at
 ANTIMATTERIUM_STRANGER_FINAL_AUDIT_PASS=true
 ```
 
+
+## Public Release Matrix
+
+CONTROL v0.1.5 publishes the public release matrix for the live ANTIMATTERIUM chain.
+
+```bash
+npm run verify:release-matrix
+npm run audit:final
+````
+
+```text
+ANTIMATTERIUM_CONTROL_PUBLIC_RELEASE_MATRIX_VERIFY_PASS=true
+```
+
