@@ -35,11 +35,15 @@ jobs:
       - name: Run stranger final audit
         run: npm run audit:final
 
+      - name: Run public stranger CI backpropagation audit
+        run: npm run audit:backpropagation
+
       - name: Emit public audit markers
         run: |
           echo "ANTIMATTERIUM_PUBLIC_STRANGER_CI_PASS=true"
           echo "ANTIMATTERIUM_STRANGER_FINAL_AUDIT_PASS=true"
           echo "ANTIMATTERIUM_BIDIRECTIONAL_PUBLIC_CHAIN_CLOSED=true"
+          echo "ANTIMATTERIUM_SECOND_ORDER_PUBLIC_STRANGER_CI_LOOP_CLOSED=true"
           echo "NO_CURRENT_PRODUCTION_CLAIM=true"
           echo "NO_STARSHIP_CLAIM=true"
           echo "NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true"
