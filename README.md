@@ -120,3 +120,17 @@ gh workflow run stranger-final-audit.yml --repo ANTIMATTERIUM/CONTROL --ref main
 ANTIMATTERIUM_PUBLIC_STRANGER_CI_PASS=true
 ```
 
+
+## Second-Order Public Stranger CI Closure
+
+CONTROL v0.1.7 closes the loop from CONTROL public stranger CI to Core, WWW, and org profile back into CONTROL.
+
+```bash
+npm run verify:second-order-public-closure
+npm run audit:backpropagation
+````
+
+```text id="wx2sva"
+ANTIMATTERIUM_SECOND_ORDER_PUBLIC_STRANGER_CI_LOOP_CLOSED=true
+```
+
