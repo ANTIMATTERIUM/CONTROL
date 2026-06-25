@@ -1,0 +1,67 @@
+{
+  "schema": "ANTIMATTERIUM_CONTROL_PUBLIC_ECOSYSTEM_CLOSURE_INDEX",
+  "object": "ANTIMATTERIUM_CONTROL",
+  "control_version": "0.1.8",
+  "index_mode": "public_multi_repo_release_graph",
+  "graph_root": {
+    "control_second_order_closure": {
+      "release": "https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.1.7-antimatterium-control-second-order-public-stranger-ci-closure",
+      "public_ci_run": "https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/28148467117",
+      "id": "16b259a7d2eb063a5a3c7b6e072c7cbed22f59b9642960f154d099581f157ee8"
+    },
+    "control_public_stranger_ci": {
+      "release": "https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.1.6-antimatterium-control-public-stranger-ci",
+      "id": "6130ca7749ec3f79bdde19e47374f7dfb6d7ae5334d025e996a8d7593bcaa4ca"
+    }
+  },
+  "surface_releases": {
+    "core": {
+      "release": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.13-antimatterium-public-stranger-ci-backlink",
+      "id": "fcfb10108a3229377763da470af0752998f02b367d63ec3589f52fd41c6a5d0d",
+      "verifier": "npm run verify:public-stranger-ci"
+    },
+    "www": {
+      "release": "https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.9-antimatterium-www-public-stranger-ci-backlink",
+      "id": "6e884796bc7a4c83f7c596e32c98b0a1d382935d82ce82a15a22dd34d34304aa",
+      "verifier": "npm run verify:public-stranger-ci"
+    },
+    "org_profile": {
+      "release": "https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.7-antimatterium-org-profile-public-stranger-ci-backlink",
+      "id": "7e79534e6263db41aea2bfe96720a87a68aac3008f596e3db1f19dd558ecccc5",
+      "verifier": "npm run verify:public-stranger-ci"
+    }
+  },
+  "chain_identifiers": {
+    "public_release_matrix_id": "c062a81788d930fe0924526b94d5b6dbadc027337d2ab416c86710771d8c27c1",
+    "stranger_final_audit_id": "95b03e5adbaad27eafa524a020c83de0bf590d7bf9a9a92e89b967b48a0ff9e7",
+    "bidirectional_public_closure_id": "1c4226ae9e5ed6b50d3f2ec97b0e43ca19f1800949bdca8f745ae5845e5d851e",
+    "ci_evidence_seal_id": "402681ceb54a72fc8c6681e1f46840ad8426ca08dac660484cc3a92b86a212ee"
+  },
+  "public_commands": {
+    "verify_control": "npm run verify",
+    "audit_second_order": "npm run audit:backpropagation",
+    "run_public_ci": "gh workflow run stranger-final-audit.yml --repo ANTIMATTERIUM/CONTROL --ref main",
+    "verify_core": "npm run verify:public-stranger-ci",
+    "verify_www": "npm run verify:public-stranger-ci",
+    "verify_org_profile": "npm run verify:public-stranger-ci"
+  },
+  "acceptance": {
+    "control_v017_release_bound": true,
+    "control_v017_public_ci_run_bound": true,
+    "control_v016_public_stranger_ci_bound": true,
+    "core_v0213_surface_bound": true,
+    "www_v019_surface_bound": true,
+    "org_profile_v007_surface_bound": true,
+    "all_surface_backlinks_indexed": true,
+    "second_order_public_loop_indexed": true,
+    "public_ecosystem_graph_closed": true,
+    "no_private_source_required": true
+  },
+  "boundaries": {
+    "NO_CURRENT_PRODUCTION_CLAIM": true,
+    "NO_STARSHIP_CLAIM": true,
+    "NO_PHYSICAL_PRODUCTION_INSTRUCTIONS": true,
+    "NON_PUBLIC_INFORMATION_EXCLUDED": true
+  },
+  "public_ecosystem_closure_index_id": "85f56c676d2c9bffff66cd59978b8bfcfffb6e8afae91258a71509f0531ba4ea"
+}
