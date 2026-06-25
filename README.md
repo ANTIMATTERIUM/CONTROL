@@ -146,3 +146,16 @@ npm run verify:ecosystem-index
 Marker:
 
 ANTIMATTERIUM_PUBLIC_ECOSYSTEM_GRAPH_CLOSED=true
+
+## Public Ecosystem Index Echo Closure
+
+CONTROL v0.1.9 closes the echo loop from CONTROL v0.1.8 to Core, WWW, and org profile back into CONTROL.
+
+Commands:
+
+npm run verify:ecosystem-echo
+npm run audit:ecosystem-echo
+
+Marker:
+
+ANTIMATTERIUM_PUBLIC_ECOSYSTEM_ECHO_GRAPH_CLOSED=true

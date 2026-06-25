@@ -1,11 +1,11 @@
 {
   "name": "@antimatterium/control",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "private": false,
   "type": "module",
   "description": "ANTIMATTERIUM public cold-replay control plane",
   "scripts": {
-    "verify": "node scripts/verify-control.mjs && node scripts/scan-public-safety.mjs && node scripts/verify-ci-gate.mjs && node scripts/verify-ci-evidence-seal.mjs && node scripts/verify-bidirectional-public-closure.mjs && node scripts/verify-stranger-final-audit.mjs && node scripts/verify-public-release-matrix.mjs && node scripts/verify-public-stranger-ci.mjs && node scripts/verify-second-order-public-stranger-ci-closure.mjs && node scripts/verify-public-ecosystem-index.mjs",
+    "verify": "node scripts/verify-control.mjs && node scripts/scan-public-safety.mjs && node scripts/verify-ci-gate.mjs && node scripts/verify-ci-evidence-seal.mjs && node scripts/verify-bidirectional-public-closure.mjs && node scripts/verify-stranger-final-audit.mjs && node scripts/verify-public-release-matrix.mjs && node scripts/verify-public-stranger-ci.mjs && node scripts/verify-second-order-public-stranger-ci-closure.mjs && node scripts/verify-public-ecosystem-index.mjs && node scripts/verify-public-ecosystem-index-echo-closure.mjs",
     "replay": "bash scripts/cold-replay.sh",
     "scan": "node scripts/scan-public-safety.mjs",
     "verify:ci": "node scripts/verify-ci-gate.mjs",
@@ -17,7 +17,9 @@
     "verify:public-stranger-ci": "node scripts/verify-public-stranger-ci.mjs",
     "audit:backpropagation": "bash scripts/public-stranger-ci-backpropagation-audit.sh",
     "verify:second-order-public-closure": "node scripts/verify-second-order-public-stranger-ci-closure.mjs",
-    "verify:ecosystem-index": "node scripts/verify-public-ecosystem-index.mjs"
+    "verify:ecosystem-index": "node scripts/verify-public-ecosystem-index.mjs",
+    "audit:ecosystem-echo": "bash scripts/public-ecosystem-index-echo-audit.sh",
+    "verify:ecosystem-echo": "node scripts/verify-public-ecosystem-index-echo-closure.mjs"
   },
   "bin": {
     "antimatterium-control-replay": "scripts/cold-replay.sh"

@@ -1,0 +1,52 @@
+{
+  "schema": "ANTIMATTERIUM_CONTROL_PUBLIC_ECOSYSTEM_INDEX_ECHO_CLOSURE",
+  "object": "ANTIMATTERIUM_CONTROL",
+  "control_version": "0.1.9",
+  "echo_mode": "control_public_ecosystem_index_to_surfaces_back_to_control",
+  "root_index": {
+    "release": "https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.1.8-antimatterium-control-public-ecosystem-index",
+    "ci_run": "https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/28148611545",
+    "public_ecosystem_closure_index_id": "85f56c676d2c9bffff66cd59978b8bfcfffb6e8afae91258a71509f0531ba4ea"
+  },
+  "surface_echo_releases": {
+    "core": {
+      "release": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.14-antimatterium-public-ecosystem-index-backlink",
+      "id": "aa4f7e799f4c29cae39c9de07ee7ed011ba3eac42b831f743b00606d6e4639ed"
+    },
+    "www": {
+      "release": "https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.10-antimatterium-www-public-ecosystem-index-backlink",
+      "id": "6b5f3844dffe293bc02c6bcb1b20397285a977b1172d1186621299c698d86078"
+    },
+    "org_profile": {
+      "release": "https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.8-antimatterium-org-profile-public-ecosystem-index-backlink",
+      "id": "d6eb675cf08baa8af13652dce164b01b3d2ac5d46245e6767a7752162f8e5d43"
+    }
+  },
+  "inherited_identifiers": {
+    "second_order_public_stranger_ci_closure_id": "16b259a7d2eb063a5a3c7b6e072c7cbed22f59b9642960f154d099581f157ee8",
+    "public_stranger_ci_id": "6130ca7749ec3f79bdde19e47374f7dfb6d7ae5334d025e996a8d7593bcaa4ca"
+  },
+  "replay_entrypoints": {
+    "local_verify": "npm run verify",
+    "echo_audit": "npm run audit:ecosystem-echo",
+    "public_ci": "gh workflow run stranger-final-audit.yml --repo ANTIMATTERIUM/CONTROL --ref main"
+  },
+  "acceptance": {
+    "control_v018_index_bound": true,
+    "control_v018_ci_run_bound": true,
+    "core_v0214_echo_bound": true,
+    "www_v0110_echo_bound": true,
+    "org_profile_v008_echo_bound": true,
+    "all_move1_surface_echoes_bound": true,
+    "control_echo_closure_complete": true,
+    "public_ecosystem_echo_graph_closed": true,
+    "no_private_source_required": true
+  },
+  "boundaries": {
+    "NO_CURRENT_PRODUCTION_CLAIM": true,
+    "NO_STARSHIP_CLAIM": true,
+    "NO_PHYSICAL_PRODUCTION_INSTRUCTIONS": true,
+    "NON_PUBLIC_INFORMATION_EXCLUDED": true
+  },
+  "public_ecosystem_index_echo_closure_id": "57965b352d283bd06ff513e8d3e30cfa9578cedb4fb55eea5b2ce2962ae26172"
+}
