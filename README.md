@@ -159,3 +159,16 @@ npm run audit:ecosystem-echo
 Marker:
 
 ANTIMATTERIUM_PUBLIC_ECOSYSTEM_ECHO_GRAPH_CLOSED=true
+
+## Public Rootless Reconstruction Index
+
+CONTROL v0.2.0 publishes a public-release-only reconstruction path. A fresh observer can rebuild the public graph without the local root workspace.
+
+Commands:
+
+npm run verify:rootless-reconstruction
+npm run audit:rootless-reconstruction
+
+Marker:
+
+ANTIMATTERIUM_NO_LOCAL_ROOT_REQUIRED=true

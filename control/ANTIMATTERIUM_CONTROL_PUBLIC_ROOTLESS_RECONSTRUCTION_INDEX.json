@@ -1,0 +1,72 @@
+{
+  "schema": "ANTIMATTERIUM_CONTROL_PUBLIC_ROOTLESS_RECONSTRUCTION_INDEX",
+  "object": "ANTIMATTERIUM_CONTROL",
+  "control_version": "0.2.0",
+  "reconstruction_mode": "public_releases_only_no_local_root_required",
+  "latest_public_control": {
+    "release": "https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.1.9-antimatterium-control-public-ecosystem-index-echo-closure",
+    "ci_run": "https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/28149348423",
+    "id": "57965b352d283bd06ff513e8d3e30cfa9578cedb4fb55eea5b2ce2962ae26172"
+  },
+  "public_reconstruction_sequence": [
+    {
+      "step": 1,
+      "repo": "ANTIMATTERIUM/CONTROL",
+      "release": "https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.1.8-antimatterium-control-public-ecosystem-index",
+      "verifier": "npm run verify:ecosystem-index",
+      "id": "85f56c676d2c9bffff66cd59978b8bfcfffb6e8afae91258a71509f0531ba4ea"
+    },
+    {
+      "step": 2,
+      "repo": "ANTIMATTERIUM/ANTIMATTERIUM",
+      "release": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.14-antimatterium-public-ecosystem-index-backlink",
+      "verifier": "npm run verify:ecosystem-index",
+      "id": "aa4f7e799f4c29cae39c9de07ee7ed011ba3eac42b831f743b00606d6e4639ed"
+    },
+    {
+      "step": 3,
+      "repo": "ANTIMATTERIUM/WWW",
+      "release": "https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.10-antimatterium-www-public-ecosystem-index-backlink",
+      "verifier": "npm run verify:ecosystem-index",
+      "id": "6b5f3844dffe293bc02c6bcb1b20397285a977b1172d1186621299c698d86078"
+    },
+    {
+      "step": 4,
+      "repo": "ANTIMATTERIUM/.github",
+      "release": "https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.8-antimatterium-org-profile-public-ecosystem-index-backlink",
+      "verifier": "npm run verify:ecosystem-index",
+      "id": "d6eb675cf08baa8af13652dce164b01b3d2ac5d46245e6767a7752162f8e5d43"
+    },
+    {
+      "step": 5,
+      "repo": "ANTIMATTERIUM/CONTROL",
+      "release": "https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.1.9-antimatterium-control-public-ecosystem-index-echo-closure",
+      "verifier": "npm run verify:ecosystem-echo",
+      "id": "57965b352d283bd06ff513e8d3e30cfa9578cedb4fb55eea5b2ce2962ae26172"
+    }
+  ],
+  "public_ci_runs": {
+    "control_v019_echo_ci": "https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/28149348423",
+    "control_v018_index_ci": "https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/28148611545",
+    "control_v017_second_order_ci": "https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/28148467117",
+    "control_v016_public_stranger_ci": "https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/28130879044"
+  },
+  "acceptance": {
+    "no_local_root_required": true,
+    "public_releases_sufficient": true,
+    "control_v019_bound": true,
+    "control_v018_bound": true,
+    "core_v0214_bound": true,
+    "www_v0110_bound": true,
+    "org_profile_v008_bound": true,
+    "public_reconstruction_sequence_bound": true,
+    "public_rootless_reconstruction_complete": true
+  },
+  "boundaries": {
+    "NO_CURRENT_PRODUCTION_CLAIM": true,
+    "NO_STARSHIP_CLAIM": true,
+    "NO_PHYSICAL_PRODUCTION_INSTRUCTIONS": true,
+    "NON_PUBLIC_INFORMATION_EXCLUDED": true
+  },
+  "public_rootless_reconstruction_index_id": "7cab442dcb14c223ffe740cd1c1c9c5f107e7bd6ee48957db775d493e93e5e8e"
+}
