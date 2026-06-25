@@ -1,0 +1,52 @@
+{
+  "schema": "ANTIMATTERIUM_CONTROL_ROOTLESS_FANOUT_ECHO_CLOSURE",
+  "object": "ANTIMATTERIUM_CONTROL",
+  "control_version": "0.2.1",
+  "closure_mode": "control_rootless_reconstruction_to_surfaces_back_to_control",
+  "rootless_reconstruction_root": {
+    "release": "https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.0-antimatterium-control-public-rootless-reconstruction-index",
+    "ci_run": "https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/28149722481",
+    "id": "7cab442dcb14c223ffe740cd1c1c9c5f107e7bd6ee48957db775d493e93e5e8e"
+  },
+  "surface_echoes": {
+    "core": {
+      "release": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.15-antimatterium-public-rootless-reconstruction-backlink",
+      "id": "ff854c79f3bba4166e1545b68f6cdcc18b9d2383ca2c9fdafeb818f50240d72f"
+    },
+    "www": {
+      "release": "https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.11-antimatterium-www-public-rootless-reconstruction-backlink",
+      "id": "3dd5c95367eceae8453a45181cb8859bb8c10497b4781900dd3e8b8a65d73836"
+    },
+    "org_profile": {
+      "release": "https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.9-antimatterium-org-profile-public-rootless-reconstruction-backlink",
+      "id": "114e334a9b04dd887421f1fa5cd95084db718fdd07c17d45a49ffc8c2d2097d4"
+    }
+  },
+  "inherited_identifiers": {
+    "public_ecosystem_index_echo_closure_id": "57965b352d283bd06ff513e8d3e30cfa9578cedb4fb55eea5b2ce2962ae26172",
+    "public_ecosystem_closure_index_id": "85f56c676d2c9bffff66cd59978b8bfcfffb6e8afae91258a71509f0531ba4ea"
+  },
+  "replay_entrypoints": {
+    "local_verify": "npm run verify",
+    "fanout_echo_audit": "npm run audit:rootless-fanout-echo",
+    "public_ci": "gh workflow run stranger-final-audit.yml --repo ANTIMATTERIUM/CONTROL --ref main"
+  },
+  "acceptance": {
+    "control_v020_rootless_index_bound": true,
+    "control_v020_ci_run_bound": true,
+    "core_v0215_rootless_backlink_bound": true,
+    "www_v0111_rootless_backlink_bound": true,
+    "org_profile_v009_rootless_backlink_bound": true,
+    "all_rootless_surface_echoes_bound": true,
+    "rootless_fanout_echo_closed": true,
+    "public_releases_sufficient": true,
+    "no_local_root_required": true
+  },
+  "boundaries": {
+    "NO_CURRENT_PRODUCTION_CLAIM": true,
+    "NO_STARSHIP_CLAIM": true,
+    "NO_PHYSICAL_PRODUCTION_INSTRUCTIONS": true,
+    "NON_PUBLIC_INFORMATION_EXCLUDED": true
+  },
+  "rootless_fanout_echo_closure_id": "39110d1cf58cedbfc54624d89a8e536e5d40f76821e18dd02d8ae615b9afb1a1"
+}

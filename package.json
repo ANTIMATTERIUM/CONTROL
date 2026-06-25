@@ -1,11 +1,11 @@
 {
   "name": "@antimatterium/control",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "private": false,
   "type": "module",
   "description": "ANTIMATTERIUM public cold-replay control plane",
   "scripts": {
-    "verify": "node scripts/verify-control.mjs && node scripts/scan-public-safety.mjs && node scripts/verify-ci-gate.mjs && node scripts/verify-ci-evidence-seal.mjs && node scripts/verify-bidirectional-public-closure.mjs && node scripts/verify-stranger-final-audit.mjs && node scripts/verify-public-release-matrix.mjs && node scripts/verify-public-stranger-ci.mjs && node scripts/verify-second-order-public-stranger-ci-closure.mjs && node scripts/verify-public-ecosystem-index.mjs && node scripts/verify-public-ecosystem-index-echo-closure.mjs && node scripts/verify-public-rootless-reconstruction-index.mjs",
+    "verify": "node scripts/verify-control.mjs && node scripts/scan-public-safety.mjs && node scripts/verify-ci-gate.mjs && node scripts/verify-ci-evidence-seal.mjs && node scripts/verify-bidirectional-public-closure.mjs && node scripts/verify-stranger-final-audit.mjs && node scripts/verify-public-release-matrix.mjs && node scripts/verify-public-stranger-ci.mjs && node scripts/verify-second-order-public-stranger-ci-closure.mjs && node scripts/verify-public-ecosystem-index.mjs && node scripts/verify-public-ecosystem-index-echo-closure.mjs && node scripts/verify-public-rootless-reconstruction-index.mjs && node scripts/verify-rootless-fanout-echo-closure.mjs",
     "replay": "bash scripts/cold-replay.sh",
     "scan": "node scripts/scan-public-safety.mjs",
     "verify:ci": "node scripts/verify-ci-gate.mjs",
@@ -21,7 +21,9 @@
     "audit:ecosystem-echo": "bash scripts/public-ecosystem-index-echo-audit.sh",
     "verify:ecosystem-echo": "node scripts/verify-public-ecosystem-index-echo-closure.mjs",
     "audit:rootless-reconstruction": "bash scripts/public-rootless-reconstruction-audit.sh",
-    "verify:rootless-reconstruction": "node scripts/verify-public-rootless-reconstruction-index.mjs"
+    "verify:rootless-reconstruction": "node scripts/verify-public-rootless-reconstruction-index.mjs",
+    "audit:rootless-fanout-echo": "bash scripts/rootless-fanout-echo-audit.sh",
+    "verify:rootless-fanout-echo": "node scripts/verify-rootless-fanout-echo-closure.mjs"
   },
   "bin": {
     "antimatterium-control-replay": "scripts/cold-replay.sh"

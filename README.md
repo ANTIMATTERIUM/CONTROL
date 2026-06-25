@@ -172,3 +172,16 @@ npm run audit:rootless-reconstruction
 Marker:
 
 ANTIMATTERIUM_NO_LOCAL_ROOT_REQUIRED=true
+
+## Rootless Fanout Echo Closure
+
+CONTROL v0.2.1 closes the rootless reconstruction fanout back into CONTROL.
+
+Commands:
+
+npm run verify:rootless-fanout-echo
+npm run audit:rootless-fanout-echo
+
+Marker:
+
+ANTIMATTERIUM_ROOTLESS_FANOUT_ECHO_GRAPH_CLOSED=true
