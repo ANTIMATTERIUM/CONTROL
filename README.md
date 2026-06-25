@@ -134,3 +134,15 @@ npm run audit:backpropagation
 ANTIMATTERIUM_SECOND_ORDER_PUBLIC_STRANGER_CI_LOOP_CLOSED=true
 ```
 
+
+## Public Ecosystem Closure Index
+
+CONTROL v0.1.8 publishes a machine-readable ecosystem closure index across CONTROL, Core, WWW, and org profile.
+
+Verifier:
+
+npm run verify:ecosystem-index
+
+Marker:
+
+ANTIMATTERIUM_PUBLIC_ECOSYSTEM_GRAPH_CLOSED=true
