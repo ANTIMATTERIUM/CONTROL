@@ -185,3 +185,18 @@ npm run audit:rootless-fanout-echo
 Marker:
 
 ANTIMATTERIUM_ROOTLESS_FANOUT_ECHO_GRAPH_CLOSED=true
+
+## Rootless Fanout Backlink Closure
+
+CONTROL v0.2.2 closes the rootless fanout echo backpropagation loop by binding the CONTROL v0.2.1 closure to the Core v0.2.16, WWW v0.1.12, and org profile v0.0.10 surface backlinks.
+
+Commands:
+
+npm run verify:rootless-fanout-backlink-closure
+npm run audit:rootless-fanout-backlink-closure
+
+Markers:
+
+ANTIMATTERIUM_CONTROL_ROOTLESS_FANOUT_BACKLINK_CLOSURE_VERIFY_PASS=true
+ANTIMATTERIUM_ROOTLESS_FANOUT_BACKPROPAGATION_CLOSED=true
+ANTIMATTERIUM_NO_LOCAL_ROOT_REQUIRED=true

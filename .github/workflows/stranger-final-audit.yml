@@ -47,6 +47,8 @@ jobs:
       - name: Run rootless fanout echo audit
         run: npm run audit:rootless-fanout-echo
 
+      - name: Run rootless fanout backlink closure audit
+        run: npm run audit:rootless-fanout-backlink-closure
       - name: Emit public audit markers
         run: |
           echo "ANTIMATTERIUM_PUBLIC_STRANGER_CI_PASS=true"

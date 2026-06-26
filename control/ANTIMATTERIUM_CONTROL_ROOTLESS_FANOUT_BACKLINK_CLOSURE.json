@@ -1,0 +1,43 @@
+{
+  "schema": "ANTIMATTERIUM_CONTROL_ROOTLESS_FANOUT_BACKLINK_CLOSURE",
+  "control_version": "0.2.2",
+  "closes": "ROOTLESS_FANOUT_ECHO_BACKPROPAGATION",
+  "upstream_control": {
+    "tag": "v0.2.1-antimatterium-control-rootless-fanout-echo-closure",
+    "release": "https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.1-antimatterium-control-rootless-fanout-echo-closure",
+    "ci_run": "https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/28190185370",
+    "rootless_fanout_echo_closure_id": "39110d1cf58cedbfc54624d89a8e536e5d40f76821e18dd02d8ae615b9afb1a1"
+  },
+  "surface_backlinks": {
+    "core": {
+      "tag": "v0.2.16-antimatterium-rootless-fanout-echo-backlink",
+      "release": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.16-antimatterium-rootless-fanout-echo-backlink",
+      "core_rootless_fanout_echo_backlink_id": "d19eda934cb909a0e4d928990c67fb21838d374e1570a9d8004f67ab0d4db93e"
+    },
+    "www": {
+      "tag": "v0.1.12-antimatterium-www-rootless-fanout-echo-backlink",
+      "release": "https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.12-antimatterium-www-rootless-fanout-echo-backlink",
+      "www_rootless_fanout_echo_backlink_id": "7ed61fd7bd24ebe51c1106e2de1220f9fc9cb8ff8fb4e81e253a18fd026bc2db"
+    },
+    "org_profile": {
+      "tag": "v0.0.10-antimatterium-org-profile-rootless-fanout-echo-backlink",
+      "release": "https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.10-antimatterium-org-profile-rootless-fanout-echo-backlink",
+      "org_profile_rootless_fanout_echo_backlink_id": "ef72ad681fa8c3d050f238d9976e637902277ed3b54daa6df3f7f6b573fd82e3"
+    }
+  },
+  "closure": {
+    "control_v021_release_bound": true,
+    "control_v021_ci_run_bound": true,
+    "core_v0216_backlink_bound": true,
+    "www_v0112_backlink_bound": true,
+    "org_profile_v0010_backlink_bound": true,
+    "rootless_fanout_backpropagation_closed": true,
+    "no_local_root_required": true
+  },
+  "boundaries": {
+    "NO_CURRENT_PRODUCTION_CLAIM": true,
+    "NO_STARSHIP_CLAIM": true,
+    "NO_PHYSICAL_PRODUCTION_INSTRUCTIONS": true
+  },
+  "rootless_fanout_backlink_closure_id": "9d411e38f3dd5a7f97bd33e4d8955a4646c6bcd346ffed2c97f6176b32d17922"
+}
