@@ -1,0 +1,46 @@
+{
+  "schema": "ANTIMATTERIUM_CONTROL_ROOTLESS_FANOUT_BACKPROPAGATION_ECHO_FANOUT_CLOSURE",
+  "object": "ANTIMATTERIUM_CONTROL",
+  "control_version": "0.2.4",
+  "closes": "MOVE_11_ROOTLESS_FANOUT_BACKPROPAGATION_ECHO_FANOUT",
+  "upstream_control_echo_closure": {
+    "tag": "v0.2.3-antimatterium-control-rootless-fanout-backpropagation-echo-closure",
+    "release": "https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.3-antimatterium-control-rootless-fanout-backpropagation-echo-closure",
+    "ci_run": "https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/28267965467",
+    "rootless_fanout_backpropagation_echo_closure_id": "01ac56b5b2f42077580d464d5053ea3ae5860f3a2f05a46d68ca1c1805215649"
+  },
+  "surface_fanout_echoes": {
+    "core": {
+      "tag": "v0.2.18-antimatterium-rootless-fanout-backpropagation-echo-backlink",
+      "release": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.18-antimatterium-rootless-fanout-backpropagation-echo-backlink",
+      "core_rootless_fanout_backpropagation_echo_backlink_id": "a42952ee829a77a4916e5b1fd4f6c16aa3baf7167f3997c4fdad89d31b4e844e"
+    },
+    "www": {
+      "tag": "v0.1.14-antimatterium-www-rootless-fanout-backpropagation-echo-backlink",
+      "release": "https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.14-antimatterium-www-rootless-fanout-backpropagation-echo-backlink",
+      "www_rootless_fanout_backpropagation_echo_backlink_id": "675637017355486438fc8e56c009c029a55fcf20ec6a421e43a1d50719be3a18"
+    },
+    "org_profile": {
+      "tag": "v0.0.12-antimatterium-org-profile-rootless-fanout-backpropagation-echo-backlink",
+      "release": "https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.12-antimatterium-org-profile-rootless-fanout-backpropagation-echo-backlink",
+      "org_profile_rootless_fanout_backpropagation_echo_backlink_id": "7652960d085d04bb1365239b755462327b24834277900a7303769945755b389a"
+    }
+  },
+  "closure": {
+    "control_v023_release_bound": true,
+    "control_v023_ci_run_bound": true,
+    "core_v0218_fanout_echo_bound": true,
+    "www_v0114_fanout_echo_bound": true,
+    "org_profile_v0012_fanout_echo_bound": true,
+    "move_11_fanout_closed_back_to_control": true,
+    "rootless_fanout_backpropagation_echo_fanout_closed": true,
+    "no_local_root_required": true
+  },
+  "boundaries": {
+    "NO_CURRENT_PRODUCTION_CLAIM": true,
+    "NO_STARSHIP_CLAIM": true,
+    "NO_PHYSICAL_PRODUCTION_INSTRUCTIONS": true,
+    "NON_PUBLIC_INFORMATION_EXCLUDED": true
+  },
+  "rootless_fanout_backpropagation_echo_fanout_closure_id": "f295de72115effeba53942447cb96919bc468661d35a28223057e57890b58f8c"
+}
