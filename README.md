@@ -215,3 +215,18 @@ Markers:
 ANTIMATTERIUM_CONTROL_ROOTLESS_FANOUT_BACKPROPAGATION_ECHO_CLOSURE_VERIFY_PASS=true
 ANTIMATTERIUM_ROOTLESS_FANOUT_BACKPROPAGATION_ECHO_CLOSED=true
 ANTIMATTERIUM_NO_LOCAL_ROOT_REQUIRED=true
+
+## Rootless Fanout Backpropagation Echo Fanout Closure
+
+CONTROL v0.2.4 closes the Move 11 fanout from Core v0.2.18, WWW v0.1.14, and org profile v0.0.12 back into CONTROL.
+
+Commands:
+
+npm run verify:rootless-fanout-backpropagation-echo-fanout-closure
+npm run audit:rootless-fanout-backpropagation-echo-fanout-closure
+
+Markers:
+
+ANTIMATTERIUM_CONTROL_ROOTLESS_FANOUT_BACKPROPAGATION_ECHO_FANOUT_CLOSURE_VERIFY_PASS=true
+ANTIMATTERIUM_ROOTLESS_FANOUT_BACKPROPAGATION_ECHO_FANOUT_CLOSED=true
+ANTIMATTERIUM_NO_LOCAL_ROOT_REQUIRED=true
