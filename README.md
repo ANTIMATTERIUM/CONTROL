@@ -262,3 +262,17 @@ ANTIMATTERIUM_NO_LOCAL_ROOT_REQUIRED=true
 NO_CURRENT_PRODUCTION_CLAIM=true
 NO_STARSHIP_CLAIM=true
 NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true
+
+
+<!-- antimatterium-move18-rootless-fanout-backlink-closure-backpropagation-closure-fanout-closure -->
+## CONTROL v0.2.7 Rootless Fanout Backlink Closure Backpropagation Closure Fanout Closure
+
+CONTROL v0.2.7 closes the public fanout from CONTROL v0.2.6 into Core v0.2.21, WWW v0.1.17, and org profile v0.0.15.
+
+- CONTROL v0.2.6 release: https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.6-antimatterium-control-rootless-fanout-backpropagation-echo-fanout-backlink-closure-backpropagation-closure
+- CONTROL v0.2.6 CI run: https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/28327289926
+- Rootless fanout backlink closure backpropagation closure ID: 831c663f39d9d5151c5e56e16f5565406f7059624c030ba527f8a48afdd24386
+- Local-root dependency: not required
+- Current production claim: false
+- Starship claim: false
+- Physical production instructions: false

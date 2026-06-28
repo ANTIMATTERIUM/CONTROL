@@ -12,7 +12,7 @@ const receipt = JSON.parse(
 );
 const pkg = JSON.parse(fs.readFileSync("package.json", "utf8"));
 
-assert(pkg.version === "0.2.6", "package version mismatch");
+assert(/^0\.2\.(6|[7-9]|[1-9][0-9]+)$/.test(pkg.version), "package version mismatch");
 assert(
   receipt.schema === "ANTIMATTERIUM_CONTROL_ROOTLESS_FANOUT_BACKPROPAGATION_ECHO_FANOUT_BACKLINK_CLOSURE_BACKPROPAGATION_CLOSURE",
   "schema mismatch"
