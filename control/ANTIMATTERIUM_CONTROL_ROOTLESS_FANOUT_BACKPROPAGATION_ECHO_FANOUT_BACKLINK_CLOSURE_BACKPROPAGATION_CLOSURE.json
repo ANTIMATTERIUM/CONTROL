@@ -1,0 +1,40 @@
+{
+  "schema": "ANTIMATTERIUM_CONTROL_ROOTLESS_FANOUT_BACKPROPAGATION_ECHO_FANOUT_BACKLINK_CLOSURE_BACKPROPAGATION_CLOSURE",
+  "object": "ANTIMATTERIUM_CONTROL",
+  "package_version": "0.2.6",
+  "closes": {
+    "control_v025_release": "https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.5-antimatterium-control-rootless-fanout-backpropagation-echo-fanout-backlink-closure",
+    "control_v025_ci_run": "https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/28326340014",
+    "rootless_fanout_backpropagation_echo_fanout_backlink_closure_id": "2cefec2c7b3b7d1cc01d238fccb5e6c0dbd61dab4c5a2f65648158fa518fe011"
+  },
+  "surface_backlinks": {
+    "core": {
+      "release": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.20-antimatterium-rootless-fanout-backpropagation-echo-fanout-backlink-closure-backlink",
+      "id": "18a9023630f05ddc5ce9eb83f6ddce079056bb24641004f55df9e04e677cf886"
+    },
+    "www": {
+      "release": "https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.16-antimatterium-www-rootless-fanout-backpropagation-echo-fanout-backlink-closure-backlink",
+      "id": "6359c8363924916e53efbd64b705378372018f6e101b89e021ee2788f0b7a382"
+    },
+    "org_profile": {
+      "release": "https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.14-antimatterium-org-profile-rootless-fanout-backpropagation-echo-fanout-backlink-closure-backlink",
+      "id": "25cc8283788c5c2c7e460296ffa54d58c44c486bafceadbac2a436ae906e6398"
+    }
+  },
+  "acceptance": {
+    "control_v025_bound": true,
+    "core_v0220_bound": true,
+    "www_v0116_bound": true,
+    "org_profile_v0014_bound": true,
+    "move15_surface_backlinks_bound": true,
+    "rootless_fanout_backpropagation_echo_fanout_backlink_closure_backpropagation_closed": true,
+    "no_local_root_required": true
+  },
+  "boundaries": {
+    "NO_CURRENT_PRODUCTION_CLAIM": true,
+    "NO_STARSHIP_CLAIM": true,
+    "NO_PHYSICAL_PRODUCTION_INSTRUCTIONS": true,
+    "NON_PUBLIC_INFORMATION_EXCLUDED": true
+  },
+  "rootless_fanout_backpropagation_echo_fanout_backlink_closure_backpropagation_closure_id": "831c663f39d9d5151c5e56e16f5565406f7059624c030ba527f8a48afdd24386"
+}
