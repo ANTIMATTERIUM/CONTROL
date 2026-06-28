@@ -58,6 +58,8 @@ jobs:
         run: npm run audit:rootless-fanout-backlink-closure-backpropagation-closure-fanout-closure
       - name: Run rootless fanout backlink closure backpropagation closure fanout backlink closure audit
         run: npm run audit:rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure
+      - name: Run rootless fanout backlink closure backpropagation closure fanout backlink closure fanout closure audit
+        run: npm run audit:rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure
 
       - name: Emit public audit markers
         run: |

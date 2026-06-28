@@ -292,3 +292,16 @@ CONTROL v0.2.7 closes the public fanout from CONTROL v0.2.6 into Core v0.2.21, W
 - Starship claim: false
 - Physical production instructions: false
 <!-- ANTIMATTERIUM:ROOTLESS_FANOUT_BACKLINK_CLOSURE_BACKPROPAGATION_CLOSURE_FANOUT_BACKLINK_CLOSURE:END -->
+
+## Rootless fanout backlink closure fanout closure v0.2.9
+
+CONTROL v0.2.9 closes the public backlink fanout from CONTROL v0.2.8 across Core v0.2.23, WWW v0.1.19, and org profile v0.0.17.
+
+- CONTROL v0.2.8 release: https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.8-antimatterium-control-rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure
+- CONTROL v0.2.8 CI run: https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/28334484888
+- Core backlink release: https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.23-antimatterium-rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-backlink
+- WWW backlink release: https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.19-antimatterium-www-rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-backlink
+- Org profile backlink release: https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.17-antimatterium-org-profile-rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-backlink
+- Closure id: 570726c66a7f54f3e015ff8d4f09860036957d41c788e3cea8be16ff81d76f44
+
+Safety boundary remains unchanged: no current production claim, no starship claim, and no physical production instructions.
