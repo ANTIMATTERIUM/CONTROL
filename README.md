@@ -305,3 +305,23 @@ CONTROL v0.2.9 closes the public backlink fanout from CONTROL v0.2.8 across Core
 - Closure id: 570726c66a7f54f3e015ff8d4f09860036957d41c788e3cea8be16ff81d76f44
 
 Safety boundary remains unchanged: no current production claim, no starship claim, and no physical production instructions.
+
+<!-- ANTIMATTERIUM_CONTROL_ROOTLESS_FANOUT_BACKLINK_CLOSURE_BACKPROPAGATION_CLOSURE_FANOUT_BACKLINK_CLOSURE_FANOUT_CLOSURE_BACKLINK_CLOSURE_START -->
+## CONTROL v0.2.10 public surface-fanout closure
+
+CONTROL v0.2.10 closes the public surface fanout from CONTROL v0.2.9.
+
+- Prior CONTROL release: https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.9-antimatterium-control-rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure
+- Prior CONTROL CI run: https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/28335270892
+- Prior CONTROL closure id: `570726c66a7f54f3e015ff8d4f09860036957d41c788e3cea8be16ff81d76f44`
+- Core release: https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.24-antimatterium-rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink
+- Core backlink id: `6c84c858ce7a8fc4c70d7219b012cf51c612db32a63da6ec86696cdcd9db97ce`
+- WWW release: https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.20-antimatterium-www-rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink
+- WWW backlink id: `c7faa5c43b753515079569c63dba8393380c4c516e551ba8876999d4ca44aadc`
+- Org profile release: https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.18-antimatterium-org-profile-rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink
+- Org profile backlink id: `6705f290297203d104262c41d84ec2c375a1f70a7514883fa0a00717031dcda7`
+- CONTROL closure id: `12940aa22c1477af9f4748f928b94eaaecb7e1379717997504c66b6975d19baf`
+- `NO_CURRENT_PRODUCTION_CLAIM=true`
+- `NO_STARSHIP_CLAIM=true`
+- `NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true`
+<!-- ANTIMATTERIUM_CONTROL_ROOTLESS_FANOUT_BACKLINK_CLOSURE_BACKPROPAGATION_CLOSURE_FANOUT_BACKLINK_CLOSURE_FANOUT_CLOSURE_BACKLINK_CLOSURE_END -->
