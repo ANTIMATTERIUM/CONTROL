@@ -1,0 +1,39 @@
+{
+  "schema": "ANTIMATTERIUM_CONTROL_ROOTLESS_FANOUT_BACKPROPAGATION_ECHO_FANOUT_BACKLINK_CLOSURE",
+  "object": "ANTIMATTERIUM_CONTROL",
+  "control_version": "0.2.5",
+  "closes": {
+    "prior_control_release": "https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.4-antimatterium-control-rootless-fanout-backpropagation-echo-fanout-closure",
+    "prior_control_ci_run": "https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/28281726132",
+    "rootless_fanout_backpropagation_echo_fanout_closure_id": "f295de72115effeba53942447cb96919bc468661d35a28223057e57890b58f8c"
+  },
+  "move13_surface_backlinks": {
+    "core": {
+      "release": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.19-antimatterium-rootless-fanout-backpropagation-echo-fanout-closure-backlink",
+      "backlink_id": "d6ac1d80ce8c00056a5e5a04c2604ab0811d23f118c5a2aeb9f9170f6c313da2"
+    },
+    "www": {
+      "release": "https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.15-antimatterium-www-rootless-fanout-backpropagation-echo-fanout-closure-backlink",
+      "backlink_id": "f3378debb3a554a985baf28af67bb90619a612ea6fea1fddb9fed1e82eba60e4"
+    },
+    "org_profile": {
+      "release": "https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.13-antimatterium-org-profile-rootless-fanout-backpropagation-echo-fanout-closure-backlink",
+      "backlink_id": "0d7c88bdee5854621a32de2e285fd1b9cc1807e8b3124802cf5ba4725866316c"
+    }
+  },
+  "acceptance": {
+    "control_v024_bound": true,
+    "core_v0219_bound": true,
+    "www_v0115_bound": true,
+    "org_profile_v0013_bound": true,
+    "move13_surface_backlinks_closed": true,
+    "no_local_root_required": true
+  },
+  "boundaries": {
+    "NO_CURRENT_PRODUCTION_CLAIM": true,
+    "NO_STARSHIP_CLAIM": true,
+    "NO_PHYSICAL_PRODUCTION_INSTRUCTIONS": true,
+    "NON_PUBLIC_INFORMATION_EXCLUDED": true
+  },
+  "rootless_fanout_backpropagation_echo_fanout_backlink_closure_id": "2cefec2c7b3b7d1cc01d238fccb5e6c0dbd61dab4c5a2f65648158fa518fe011"
+}
