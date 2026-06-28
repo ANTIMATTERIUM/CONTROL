@@ -1,11 +1,11 @@
 {
   "name": "@antimatterium/control",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "private": false,
   "type": "module",
   "description": "ANTIMATTERIUM public cold-replay control plane",
   "scripts": {
-    "verify": "node scripts/verify-control.mjs && node scripts/scan-public-safety.mjs && node scripts/verify-ci-gate.mjs && node scripts/verify-ci-evidence-seal.mjs && node scripts/verify-bidirectional-public-closure.mjs && node scripts/verify-stranger-final-audit.mjs && node scripts/verify-public-release-matrix.mjs && node scripts/verify-public-stranger-ci.mjs && node scripts/verify-second-order-public-stranger-ci-closure.mjs && node scripts/verify-public-ecosystem-index.mjs && node scripts/verify-public-ecosystem-index-echo-closure.mjs && node scripts/verify-public-rootless-reconstruction-index.mjs && node scripts/verify-rootless-fanout-echo-closure.mjs && node scripts/verify-rootless-fanout-backlink-closure.mjs && node scripts/verify-rootless-fanout-backpropagation-echo-closure.mjs && node scripts/verify-rootless-fanout-backpropagation-echo-fanout-closure.mjs && node scripts/verify-rootless-fanout-backpropagation-echo-fanout-backlink-closure.mjs && node scripts/verify-rootless-fanout-backpropagation-echo-fanout-backlink-closure-backpropagation-closure.mjs",
+    "verify": "node scripts/verify-control.mjs && node scripts/scan-public-safety.mjs && node scripts/verify-ci-gate.mjs && node scripts/verify-ci-evidence-seal.mjs && node scripts/verify-bidirectional-public-closure.mjs && node scripts/verify-stranger-final-audit.mjs && node scripts/verify-public-release-matrix.mjs && node scripts/verify-public-stranger-ci.mjs && node scripts/verify-second-order-public-stranger-ci-closure.mjs && node scripts/verify-public-ecosystem-index.mjs && node scripts/verify-public-ecosystem-index-echo-closure.mjs && node scripts/verify-public-rootless-reconstruction-index.mjs && node scripts/verify-rootless-fanout-echo-closure.mjs && node scripts/verify-rootless-fanout-backlink-closure.mjs && node scripts/verify-rootless-fanout-backpropagation-echo-closure.mjs && node scripts/verify-rootless-fanout-backpropagation-echo-fanout-closure.mjs && node scripts/verify-rootless-fanout-backpropagation-echo-fanout-backlink-closure.mjs && node scripts/verify-rootless-fanout-backpropagation-echo-fanout-backlink-closure-backpropagation-closure.mjs && node scripts/verify-rootless-fanout-backlink-closure-backpropagation-closure-fanout-closure.mjs",
     "replay": "bash scripts/cold-replay.sh",
     "scan": "node scripts/scan-public-safety.mjs",
     "verify:ci": "node scripts/verify-ci-gate.mjs",
@@ -33,7 +33,9 @@
     "verify:rootless-fanout-backpropagation-echo-fanout-backlink-closure": "node scripts/verify-rootless-fanout-backpropagation-echo-fanout-backlink-closure.mjs",
     "audit:rootless-fanout-backpropagation-echo-fanout-backlink-closure": "bash scripts/rootless-fanout-backpropagation-echo-fanout-backlink-closure-audit.sh",
     "audit:rootless-fanout-backpropagation-echo-fanout-backlink-closure-backpropagation-closure": "bash scripts/rootless-fanout-backpropagation-echo-fanout-backlink-closure-backpropagation-closure-audit.sh",
-    "verify:rootless-fanout-backpropagation-echo-fanout-backlink-closure-backpropagation-closure": "node scripts/verify-rootless-fanout-backpropagation-echo-fanout-backlink-closure-backpropagation-closure.mjs"
+    "verify:rootless-fanout-backpropagation-echo-fanout-backlink-closure-backpropagation-closure": "node scripts/verify-rootless-fanout-backpropagation-echo-fanout-backlink-closure-backpropagation-closure.mjs",
+    "verify:rootless-fanout-backlink-closure-backpropagation-closure-fanout-closure": "node scripts/verify-rootless-fanout-backlink-closure-backpropagation-closure-fanout-closure.mjs",
+    "audit:rootless-fanout-backlink-closure-backpropagation-closure-fanout-closure": "bash scripts/rootless-fanout-backlink-closure-backpropagation-closure-fanout-closure-audit.sh"
   },
   "bin": {
     "antimatterium-control-replay": "scripts/cold-replay.sh"
