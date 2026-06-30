@@ -1,0 +1,33 @@
+{
+  "closure": "rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure-fanout-closure-backlink-closure",
+  "closure_id": "a6ccef52b1a881bfbdf7f066becc46b326d964bb96ebd98648447493a7c2e0fe",
+  "no_current_production_claim": true,
+  "no_local_root_required": true,
+  "no_physical_production_instructions": true,
+  "no_starship_claim": true,
+  "package": {
+    "name": "@antimatterium/control",
+    "version": "0.2.12"
+  },
+  "prior_control": {
+    "ci_run": "https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/28475228834",
+    "closure_id": "58b6405492f8994415207a64b4a6051d7970996d601d3a5a7639033ee323fd8b",
+    "release": "https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.11-antimatterium-control-rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure-fanout-closure"
+  },
+  "schema": "antimatterium.control.surface_backlink_fanout_closure.v1",
+  "status": "PUBLIC_SURFACE_BACKLINK_FANOUT_CLOSED",
+  "surface_backlinks": {
+    "core": {
+      "backlink_id": "c6d3ad0d2cac39a49bda98037b94096c06265da10bd544f8076853e08efb5ede",
+      "release": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.26-antimatterium-rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure-fanout-closure-backlink"
+    },
+    "org_profile": {
+      "backlink_id": "b7905c70228c3b58097e011921cb41446be96b226d05913d3bb29f92b74b65b7",
+      "release": "https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.20-antimatterium-org-profile-rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure-fanout-closure-backlink"
+    },
+    "www": {
+      "backlink_id": "8c1ad7efafec8115f3ab1c97a4579398ed51aa9730aebe49fb49be2f4616acb7",
+      "release": "https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.22-antimatterium-www-rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure-fanout-closure-backlink"
+    }
+  }
+}
