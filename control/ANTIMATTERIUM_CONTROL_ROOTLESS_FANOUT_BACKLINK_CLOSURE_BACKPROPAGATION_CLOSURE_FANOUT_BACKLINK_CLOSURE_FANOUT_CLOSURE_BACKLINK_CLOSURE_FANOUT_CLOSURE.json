@@ -1,0 +1,33 @@
+{
+  "closure": "rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure-fanout-closure",
+  "closure_id": "58b6405492f8994415207a64b4a6051d7970996d601d3a5a7639033ee323fd8b",
+  "no_current_production_claim": true,
+  "no_local_root_required": true,
+  "no_physical_production_instructions": true,
+  "no_starship_claim": true,
+  "package": {
+    "name": "@antimatterium/control",
+    "version": "0.2.11"
+  },
+  "prior_control": {
+    "ci_run": "https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/28336116773",
+    "closure_id": "12940aa22c1477af9f4748f928b94eaaecb7e1379717997504c66b6975d19baf",
+    "release": "https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.10-antimatterium-control-rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure"
+  },
+  "schema": "antimatterium.control.surface_backlink_fanout_closure.v1",
+  "status": "PUBLIC_SURFACE_BACKLINK_FANOUT_CLOSED",
+  "surface_backlinks": {
+    "core": {
+      "backlink_id": "4c015cd8bc31bd51c0aa4f6b6101a4827e1ebca2e2820a2ce4d3bb2564fd23f0",
+      "release": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.25-antimatterium-rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure-backlink"
+    },
+    "org_profile": {
+      "backlink_id": "a101d4e79a47a2486ec4fcf663a1c1a6220e2e609bd2989e0febe2ddcaf877a3",
+      "release": "https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.19-antimatterium-org-profile-rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure-backlink"
+    },
+    "www": {
+      "backlink_id": "69cc72095fcf1196d839efb2ab5fea265b36e7a37b03b939e6c68f99f0d5d036",
+      "release": "https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.21-antimatterium-www-rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure-backlink"
+    }
+  }
+}
