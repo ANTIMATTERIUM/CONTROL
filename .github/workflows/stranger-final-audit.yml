@@ -63,6 +63,8 @@ jobs:
 
       - name: Run rootless fanout closure backlink closure audit
         run: npm run audit:rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure
+      - name: Run public surface backlink fanout closure audit
+        run: npm run audit:rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure-fanout-closure
       - name: Emit public audit markers
         run: |
           echo "ANTIMATTERIUM_PUBLIC_STRANGER_CI_PASS=true"
@@ -72,6 +74,7 @@ jobs:
           echo "ANTIMATTERIUM_PUBLIC_ECOSYSTEM_ECHO_GRAPH_CLOSED=true"
           echo "ANTIMATTERIUM_ROOTLESS_FANOUT_BACKPROPAGATION_ECHO_FANOUT_BACKLINK_CLOSURE_BACKPROPAGATION_CLOSED=true"
           echo "ANTIMATTERIUM_NO_LOCAL_ROOT_REQUIRED=true"
+          echo "ANTIMATTERIUM_PUBLIC_SURFACE_BACKLINK_FANOUT_CLOSED=true"
           echo "ANTIMATTERIUM_ROOTLESS_FANOUT_BACKLINK_CLOSURE_BACKPROPAGATION_CLOSURE_FANOUT_BACKLINK_CLOSURE_FANOUT_CLOSURE_BACKLINK_CLOSED=true"
           echo "ANTIMATTERIUM_ROOTLESS_FANOUT_ECHO_GRAPH_CLOSED=true"
           echo "NO_CURRENT_PRODUCTION_CLAIM=true"
