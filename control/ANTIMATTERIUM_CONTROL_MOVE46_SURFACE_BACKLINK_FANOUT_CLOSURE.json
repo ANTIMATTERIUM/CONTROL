@@ -1,0 +1,46 @@
+{
+  "MOVE46_SURFACE_BACKLINK_FANOUT_CLOSURE_ID": "84ca47ad18ab3583671eeb5e7d329aff13cb3b30413b2a634d2d08ba07f393d3",
+  "closure_id": "84ca47ad18ab3583671eeb5e7d329aff13cb3b30413b2a634d2d08ba07f393d3",
+  "move": 46,
+  "no_current_production_claim": true,
+  "no_local_root_required": true,
+  "no_physical_production_instructions": true,
+  "no_starship_claim": true,
+  "package_name": "@antimatterium/control",
+  "package_version": "0.2.21",
+  "prior_control": {
+    "ci_run": "https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/28525467798",
+    "closure_id": "0a336efeec3df03622df1814eeb076ba69a3e181006fe52add05c71a05704efc",
+    "release": "https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.20-antimatterium-control-move43-surface-closure",
+    "tag": "v0.2.20-antimatterium-control-move43-surface-closure",
+    "version": "0.2.20"
+  },
+  "schema": "antimatterium.control.move46_surface_backlink_fanout_closure.v1",
+  "short_public_tag_required": true,
+  "surface_backlinks": {
+    "core": {
+      "backlink_id": "3438d6411b8fc4174a1003bdb20be46f57e3a766215dddf266a82679d4c47c7f",
+      "release": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.35-antimatterium-control-v0220-backlink",
+      "tag": "v0.2.35-antimatterium-control-v0220-backlink",
+      "version": "0.2.35"
+    },
+    "org_profile": {
+      "backlink_id": "f6bba38cebb15dfd783a46a861817e7c43ce3839e378e9526dfbe8bffd09685f",
+      "release": "https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.29-antimatterium-org-profile-control-v0220-backlink",
+      "tag": "v0.0.29-antimatterium-org-profile-control-v0220-backlink",
+      "version": "0.0.29"
+    },
+    "www": {
+      "backlink_id": "7417aacc04c2857dbca3719ee2285bb4d865ff34fda61ad1d6e56932758d578c",
+      "release": "https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.31-antimatterium-www-control-v0220-backlink",
+      "tag": "v0.1.31-antimatterium-www-control-v0220-backlink",
+      "version": "0.1.31"
+    }
+  },
+  "verification": {
+    "audit_command": "npm run audit:move46-surface-backlink-fanout-closure",
+    "audit_flag": "ANTIMATTERIUM_MOVE46_SURFACE_BACKLINK_FANOUT_CLOSURE_AUDIT_PASS",
+    "command": "npm run verify:move46-surface-backlink-fanout-closure",
+    "verify_flag": "ANTIMATTERIUM_CONTROL_MOVE46_SURFACE_BACKLINK_FANOUT_CLOSURE_VERIFY_PASS"
+  }
+}
