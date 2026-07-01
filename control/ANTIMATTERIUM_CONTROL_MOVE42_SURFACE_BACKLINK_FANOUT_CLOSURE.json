@@ -1,0 +1,47 @@
+{
+  "audit_command": "npm run audit:move42-surface-backlink-fanout-closure",
+  "closure_id": "9ae0cf352d7062356e02b964d517a9321f0c0743d2eba695fb0d6adc6a702f08",
+  "control_release": "https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.19-antimatterium-control-move41-surface-closure",
+  "control_tag": "v0.2.19-antimatterium-control-move41-surface-closure",
+  "move": 42,
+  "no_current_production_claim": true,
+  "no_local_root_required": true,
+  "no_physical_production_instructions": true,
+  "no_starship_claim": true,
+  "package_name": "@antimatterium/control",
+  "package_version": "0.2.19",
+  "prior_control": {
+    "ci_run": "https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/28524366738",
+    "closure_id": "01a39a53a3914b1b38f283f2b4232b190c201712f0f8edb6fd0e91fc7bca717a",
+    "release": "https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.18-antimatterium-control-move39-surface-closure",
+    "tag": "v0.2.18-antimatterium-control-move39-surface-closure",
+    "verify_alias": "verify:move40-surface-backlink-fanout-closure",
+    "version": "0.2.18"
+  },
+  "schema": "antimatterium.control.move42.surface_backlink_fanout_closure.v1",
+  "short_public_tag_required": true,
+  "surface_backlinks": {
+    "core": {
+      "backlink_id": "7a45950d954911d5c83137bcf273c7ee53fa3d78c83c94b5e1be0c8bcaccb7f3",
+      "release": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.33-antimatterium-control-v0218-backlink",
+      "tag": "v0.2.33-antimatterium-control-v0218-backlink",
+      "verify_alias": "verify:move41-control-v0218-backlink",
+      "version": "0.2.33"
+    },
+    "org_profile": {
+      "backlink_id": "2ea777fdfe235d31159ec4601a1c26098d0a0ec2092319fd171ac332863ee008",
+      "release": "https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.27-antimatterium-org-profile-control-v0218-backlink",
+      "tag": "v0.0.27-antimatterium-org-profile-control-v0218-backlink",
+      "verify_alias": "verify:move41-control-v0218-backlink",
+      "version": "0.0.27"
+    },
+    "www": {
+      "backlink_id": "d2b0bada95d147729a5fc041879c7a4cc7dfe35341b75d92e3d1d0b5244ced60",
+      "release": "https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.29-antimatterium-www-control-v0218-backlink",
+      "tag": "v0.1.29-antimatterium-www-control-v0218-backlink",
+      "verify_alias": "verify:move41-control-v0218-backlink",
+      "version": "0.1.29"
+    }
+  },
+  "verify_command": "npm run verify:move42-surface-backlink-fanout-closure"
+}
