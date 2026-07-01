@@ -92,3 +92,13 @@ jobs:
           echo "NO_CURRENT_PRODUCTION_CLAIM=true"
           echo "NO_STARSHIP_CLAIM=true"
           echo "NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true"
+
+  move36-public-surface-backlink-fanout-closure:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm run verify:rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure-fanout-closure-backlink-closure-backlink-closure-backlink-closure-backlink-closure-backlink-closure
+      - run: npm run audit:rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure-fanout-closure-backlink-closure-backlink-closure-backlink-closure-backlink-closure-backlink-closure
