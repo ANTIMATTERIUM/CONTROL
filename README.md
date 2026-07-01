@@ -537,3 +537,24 @@ CONTROL v0.2.20 closes the Move 43 surface backlink fanout from CONTROL v0.2.19 
 - `NO_STARSHIP_CLAIM=true`
 - `NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true`
 <!-- ANTIMATTERIUM_MOVE44_CONTROL_V0220_SURFACE_BACKLINK_FANOUT_CLOSURE_END -->
+
+<!-- ANTIMATTERIUM_MOVE46_CONTROL_SURFACE_BACKLINK_FANOUT_CLOSURE_START -->
+## Move 46 CONTROL public surface backlink fanout closure
+
+CONTROL v0.2.21 closes the Move 45 public surface backlinks from CONTROL v0.2.20.
+
+- Prior CONTROL release: https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.20-antimatterium-control-move43-surface-closure
+- Prior CONTROL CI run: https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/28525467798
+- Core backlink release: https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.35-antimatterium-control-v0220-backlink
+- WWW backlink release: https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.31-antimatterium-www-control-v0220-backlink
+- Org profile backlink release: https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.29-antimatterium-org-profile-control-v0220-backlink
+- Verify: `npm run verify:move46-surface-backlink-fanout-closure`
+- Audit: `npm run audit:move46-surface-backlink-fanout-closure`
+- `ANTIMATTERIUM_SHORT_PUBLIC_TAG_REQUIRED=true`
+
+Safety boundary remains explicit:
+
+- `NO_CURRENT_PRODUCTION_CLAIM=true`
+- `NO_STARSHIP_CLAIM=true`
+- `NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true`
+<!-- ANTIMATTERIUM_MOVE46_CONTROL_SURFACE_BACKLINK_FANOUT_CLOSURE_END -->

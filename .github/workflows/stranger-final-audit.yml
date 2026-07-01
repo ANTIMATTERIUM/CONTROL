@@ -142,3 +142,4 @@ jobs:
           node-version: '20'
       - run: npm run verify:move44-surface-backlink-fanout-closure
       - run: npm run audit:move44-surface-backlink-fanout-closure
+      npm run audit:move46-surface-backlink-fanout-closure
