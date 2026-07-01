@@ -425,3 +425,24 @@ CONTROL v0.2.15 closes the public surface backlink fanout from CONTROL v0.2.14.
 - `NO_STARSHIP_CLAIM=true`
 - `NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true`
 <!-- ANTIMATTERIUM_CONTROL_V0215_MOVE34_PUBLIC_SURFACE_BACKLINK_FANOUT_CLOSURE_END -->
+
+<!-- ANTIMATTERIUM_MOVE36_CONTROL_V0216_SURFACE_BACKLINK_FANOUT_CLOSURE_START -->
+## CONTROL v0.2.16 public surface backlink fanout closure
+
+CONTROL v0.2.16 closes the Move 35 surface backlink fanout from CONTROL v0.2.15.
+
+- Prior CONTROL release: https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.15-antimatterium-control-rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure-fanout-closure-backlink-closure-backlink-closure-backlink-closure-backlink-closure
+- Prior CONTROL CI run: https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/28516895725
+- Prior CONTROL closure id: `5fd82a631ca4d01e4209288479d3cbcd623ddd017587722d2c67708ff3cbf56a`
+- Core release: https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.30-antimatterium-rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure-fanout-closure-backlink-closure-backlink-closure-backlink-closure-backlink-closure-backlink
+- WWW release: https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.26-antimatterium-www-rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure-fanout-closure-backlink-closure-backlink-closure-backlink-closure-backlink-closure-backlink
+- Org profile release: https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.24-antimatterium-org-profile-rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure-fanout-closure-backlink-closure-backlink-closure-backlink-closure-backlink-closure-backlink
+- Core backlink id: `4436b1b981906208e96770b4fc39d5d6c56aa4b7a529509fb78217434b59eea6`
+- WWW backlink id: `a3d6f3ed5210e69f8a21f778a29c7452387a5d186925c7eb9188c3bc1a7acba5`
+- Org profile backlink id: `91112913207470869fc6f18b4c780011cc581fddd8a7908d7bbdbdffecb9dbcc`
+- CONTROL closure id: `e9f48278e811786b35f9939f982d502a7b0eacc4aff47e03e9257095190c6d26`
+- `ANTIMATTERIUM_NO_LOCAL_ROOT_REQUIRED=true`
+- `NO_CURRENT_PRODUCTION_CLAIM=true`
+- `NO_STARSHIP_CLAIM=true`
+- `NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true`
+<!-- ANTIMATTERIUM_MOVE36_CONTROL_V0216_SURFACE_BACKLINK_FANOUT_CLOSURE_END -->
