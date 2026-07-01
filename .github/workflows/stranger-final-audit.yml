@@ -69,6 +69,8 @@ jobs:
         run: npm run audit:rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure-fanout-closure-backlink-closure
       - name: Run Move 30 public surface backlink fanout closure audit
         run: npm run audit:rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure-fanout-closure-backlink-closure-backlink-closure
+      - name: Run Move 32 public surface backlink fanout closure audit
+        run: npm run audit:rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure-fanout-closure-backlink-closure-backlink-closure-backlink-closure
       - name: Emit public audit markers
         run: |
           echo "ANTIMATTERIUM_PUBLIC_STRANGER_CI_PASS=true"
@@ -78,6 +80,7 @@ jobs:
           echo "ANTIMATTERIUM_PUBLIC_ECOSYSTEM_ECHO_GRAPH_CLOSED=true"
           echo "ANTIMATTERIUM_ROOTLESS_FANOUT_BACKPROPAGATION_ECHO_FANOUT_BACKLINK_CLOSURE_BACKPROPAGATION_CLOSED=true"
           echo "ANTIMATTERIUM_NO_LOCAL_ROOT_REQUIRED=true"
+          echo "ANTIMATTERIUM_MOVE32_PUBLIC_SURFACE_BACKLINK_FANOUT_CLOSED=true"
           echo "ANTIMATTERIUM_MOVE30_PUBLIC_SURFACE_BACKLINK_FANOUT_CLOSED=true"
           echo "ANTIMATTERIUM_MOVE28_PUBLIC_SURFACE_BACKLINK_FANOUT_CLOSED=true"
           echo "ANTIMATTERIUM_PUBLIC_SURFACE_BACKLINK_FANOUT_CLOSED=true"
