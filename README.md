@@ -514,3 +514,26 @@ CONTROL v0.2.19 closes the Move 41 surface backlink fanout from CONTROL v0.2.18 
 - `NO_STARSHIP_CLAIM=true`
 - `NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true`
 <!-- ANTIMATTERIUM_MOVE42_CONTROL_V0219_SURFACE_BACKLINK_FANOUT_CLOSURE_END -->
+
+<!-- ANTIMATTERIUM_MOVE44_CONTROL_V0220_SURFACE_BACKLINK_FANOUT_CLOSURE_START -->
+## CONTROL v0.2.20 public surface backlink fanout closure
+
+CONTROL v0.2.20 closes the Move 43 surface backlink fanout from CONTROL v0.2.19 using short public tag discipline.
+
+- CONTROL release: https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.20-antimatterium-control-move43-surface-closure
+- Prior CONTROL release: https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.19-antimatterium-control-move41-surface-closure
+- Prior CONTROL CI run: https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/28525061736
+- Prior CONTROL closure id: `9ae0cf352d7062356e02b964d517a9321f0c0743d2eba695fb0d6adc6a702f08`
+- Core release: https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.34-antimatterium-control-v0219-backlink
+- WWW release: https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.30-antimatterium-www-control-v0219-backlink
+- Org profile release: https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.28-antimatterium-org-profile-control-v0219-backlink
+- Core backlink id: `030604066e720daecb36c2e43a7cfe70e7f763b69f2766241f8277b058342d6a`
+- WWW backlink id: `a1daaf00ecc840a8f30513505205e2414dc170f1141bc6adcb501bd6b6121b75`
+- Org profile backlink id: `87276a767baa71208d5f2ad2623f306d007f90c4f83fa50725d31f321b32b2c8`
+- CONTROL closure id: `0a336efeec3df03622df1814eeb076ba69a3e181006fe52add05c71a05704efc`
+- `ANTIMATTERIUM_SHORT_PUBLIC_TAG_REQUIRED=true`
+- `ANTIMATTERIUM_NO_LOCAL_ROOT_REQUIRED=true`
+- `NO_CURRENT_PRODUCTION_CLAIM=true`
+- `NO_STARSHIP_CLAIM=true`
+- `NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true`
+<!-- ANTIMATTERIUM_MOVE44_CONTROL_V0220_SURFACE_BACKLINK_FANOUT_CLOSURE_END -->
