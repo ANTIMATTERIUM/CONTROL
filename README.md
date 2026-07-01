@@ -365,3 +365,23 @@ CONTROL v0.2.12 closes the public surface backlink fanout from CONTROL v0.2.11.
 - `NO_STARSHIP_CLAIM=true`
 - `NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true`
 <!-- ANTIMATTERIUM_CONTROL_V0212_MOVE28_PUBLIC_SURFACE_BACKLINK_FANOUT_CLOSURE_END -->
+
+<!-- ANTIMATTERIUM_CONTROL_V0213_MOVE30_PUBLIC_SURFACE_BACKLINK_FANOUT_CLOSURE_START -->
+## CONTROL v0.2.13 public surface backlink fanout closure
+
+CONTROL v0.2.13 closes the public surface backlink fanout from CONTROL v0.2.12.
+
+- Prior CONTROL release: https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.12-antimatterium-control-rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure-fanout-closure-backlink-closure
+- Prior CONTROL CI run: https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/28477606355
+- Prior CONTROL closure id: `a6ccef52b1a881bfbdf7f066becc46b326d964bb96ebd98648447493a7c2e0fe`
+- Core release: https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.27-antimatterium-rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure-fanout-closure-backlink-closure-backlink
+- Core backlink id: `eee199189c9650736dcaba1905315b96f1ce4a7cddd380ce2d399324af04ac85`
+- WWW release: https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.23-antimatterium-www-rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure-fanout-closure-backlink-closure-backlink
+- WWW backlink id: `7168070caf2e6d7759a7c53bc7cb67469f8bf72ee83c5a740722f5d1942a7091`
+- Org profile release: https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.21-antimatterium-org-profile-rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure-fanout-closure-backlink-closure-backlink
+- Org profile backlink id: `cfec13610c24e7f452f98d903d292d1e55ee4a634aa8a520d2dba3b80c006ffb`
+- CONTROL closure id: `1554781e58535f16c8c5d266af98bdbb8d60f6d397488e6c5b473d8cb780bf4d`
+- `NO_CURRENT_PRODUCTION_CLAIM=true`
+- `NO_STARSHIP_CLAIM=true`
+- `NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true`
+<!-- ANTIMATTERIUM_CONTROL_V0213_MOVE30_PUBLIC_SURFACE_BACKLINK_FANOUT_CLOSURE_END -->
