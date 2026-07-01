@@ -21,7 +21,7 @@ const pkg = JSON.parse(fs.readFileSync("package.json", "utf8"));
 const receipt = JSON.parse(fs.readFileSync("control/ANTIMATTERIUM_CONTROL_ROOTLESS_FANOUT_BACKLINK_CLOSURE_BACKPROPAGATION_CLOSURE_FANOUT_BACKLINK_CLOSURE.json", "utf8"));
 
 assert(pkg.name === "@antimatterium/control", "package name mismatch");
-assert(["0.2.8", "0.2.9", "0.2.10", "0.2.11", "0.2.12"].includes(pkg.version), "package version mismatch");
+assert(["0.2.8", "0.2.9", "0.2.10", "0.2.11", "0.2.12", "0.2.13"].includes(pkg.version), "package version mismatch");
 assert(receipt.package.name === "@antimatterium/control", "receipt package name mismatch");
 assert(receipt.package.version === "0.2.8", "receipt package version mismatch");
 
