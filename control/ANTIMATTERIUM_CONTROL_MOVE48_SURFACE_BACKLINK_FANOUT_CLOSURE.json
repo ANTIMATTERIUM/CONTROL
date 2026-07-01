@@ -1,0 +1,42 @@
+{
+  "closure_id": "89b2f9e3f39ae4e63f9a1c648e95b310ad5145c2cae94778ca3227fcbe1c2c49",
+  "move": 48,
+  "move47_surface_backlinks": {
+    "core": {
+      "backlink_id": "ea25bf47fc44f217a5f6d5b610c4b6f28b01933988b9dd32ccd11f028df75db1",
+      "release": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.36-antimatterium-control-v0221-backlink",
+      "tag": "v0.2.36-antimatterium-control-v0221-backlink",
+      "version": "0.2.36"
+    },
+    "org_profile": {
+      "backlink_id": "c980cd92c9fc70b2d64609401c8b38a483111bf0340fc55f99087c0315c80a01",
+      "release": "https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.30-antimatterium-org-profile-control-v0221-backlink",
+      "tag": "v0.0.30-antimatterium-org-profile-control-v0221-backlink",
+      "version": "0.0.30"
+    },
+    "www": {
+      "backlink_id": "eebb0a4ef643a7c9e5c12de6514898ec1bfd56f4ba9cef8ad82e1a892b1f4e0d",
+      "release": "https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.32-antimatterium-www-control-v0221-backlink",
+      "tag": "v0.1.32-antimatterium-www-control-v0221-backlink",
+      "version": "0.1.32"
+    }
+  },
+  "move47_surface_backlinks_replayed": true,
+  "move48_surface_backlink_fanout_closure_id": "89b2f9e3f39ae4e63f9a1c648e95b310ad5145c2cae94778ca3227fcbe1c2c49",
+  "no_current_production_claim": true,
+  "no_local_root_required": true,
+  "no_physical_production_instructions": true,
+  "no_starship_claim": true,
+  "package_name": "@antimatterium/control",
+  "package_version": "0.2.22",
+  "prior_control": {
+    "ci_run": "https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/28527938011",
+    "closure_id": "84ca47ad18ab3583671eeb5e7d329aff13cb3b30413b2a634d2d08ba07f393d3",
+    "release": "https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.21-antimatterium-control-move45-surface-closure",
+    "tag": "v0.2.21-antimatterium-control-move45-surface-closure",
+    "version": "0.2.21"
+  },
+  "public_tag": "v0.2.22-antimatterium-control-move47-surface-closure",
+  "schema": "antimatterium.control.move48_surface_backlink_fanout_closure.v1",
+  "short_public_tag_required": true
+}
