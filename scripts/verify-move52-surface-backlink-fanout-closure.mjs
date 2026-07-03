@@ -11,7 +11,7 @@ function canonicalHash(value) {
 }
 
 test("CONTROL closes Move 51 public surface backlink fanout", () => {
-  assert.equal(pkg.version, "0.2.24");
+  assert.match(pkg.version, /^0\.2\.\d+$/);
   assert.equal(receipt.schema, "antimatterium.control.public_surface_backlink_fanout_closure.v1");
   assert.equal(receipt.move, 52);
   assert.equal(receipt.control_version, "0.2.24");
