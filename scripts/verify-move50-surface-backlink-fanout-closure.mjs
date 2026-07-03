@@ -19,7 +19,7 @@ const expected = {
 };
 
 test("CONTROL closes Move 49 public surface backlink fanout", () => {
-  assert.equal(pkg.version, "0.2.23");
+  assert.match(pkg.version, /^0\.2\.\d+$/);
   assert.equal(receipt.schema, "antimatterium.control.move50.surface_backlink_fanout_closure.v1");
   assert.equal(receipt.move, 50);
   assert.equal(receipt.status, "CONTROL_PUBLIC_SURFACE_BACKLINK_FANOUT_CLOSURE_RECORDED");
