@@ -600,3 +600,23 @@ Flags:
 - NO_STARSHIP_CLAIM=true
 - NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true
 
+<!-- ANTIMATTERIUM_MOVE52_CONTROL_SURFACE_BACKLINK_FANOUT_CLOSURE -->
+## CONTROL v0.2.24 public surface backlink fanout closure — Move 52
+
+CONTROL v0.2.24 closes the Move 51 public surface backlink fanout.
+
+- Prior CONTROL release: https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.23-antimatterium-control-move49-surface-closure
+- Prior CONTROL verify CI: https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/28641499317
+- Prior CONTROL closure ID: `35f989768e72c5d856cc79bf1d84dac2c950ffd2552c81133f470637d441dd0e`
+- Core release: https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.38-antimatterium-control-v0223-backlink
+- WWW release: https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.34-antimatterium-www-control-v0223-backlink
+- Org profile release: https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.32-antimatterium-org-profile-control-v0223-backlink
+- Closure receipt: `control/ANTIMATTERIUM_CONTROL_MOVE52_SURFACE_BACKLINK_FANOUT_CLOSURE.json`
+- Verifier: `scripts/verify-move52-surface-backlink-fanout-closure.mjs`
+- Audit: `scripts/move52-surface-backlink-fanout-closure-audit.sh`
+
+ANTIMATTERIUM_SHORT_PUBLIC_TAG_REQUIRED=true  
+ANTIMATTERIUM_NO_LOCAL_ROOT_REQUIRED=true  
+NO_CURRENT_PRODUCTION_CLAIM=true  
+NO_STARSHIP_CLAIM=true  
+NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true

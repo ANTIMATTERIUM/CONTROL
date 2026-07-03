@@ -1,0 +1,42 @@
+{
+  "schema": "antimatterium.control.public_surface_backlink_fanout_closure.v1",
+  "move": 52,
+  "control_version": "0.2.24",
+  "control_public_tag": "v0.2.24-antimatterium-control-move51-surface-closure",
+  "closure_scope": "control_closes_move51_public_surface_backlink_fanout",
+  "prior_control": {
+    "version": "0.2.23",
+    "tag": "v0.2.23-antimatterium-control-move49-surface-closure",
+    "release": "https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.23-antimatterium-control-move49-surface-closure",
+    "ci_run": "https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/28641499317",
+    "closure_id": "35f989768e72c5d856cc79bf1d84dac2c950ffd2552c81133f470637d441dd0e"
+  },
+  "surfaces": {
+    "core": {
+      "version": "0.2.38",
+      "tag": "v0.2.38-antimatterium-control-v0223-backlink",
+      "release": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.38-antimatterium-control-v0223-backlink",
+      "backlink_id": "dc1bbccf63ed9a2ac96a73478b81d86776ed9ac9241bb6a0cdadf2f9618d16fa"
+    },
+    "www": {
+      "version": "0.1.34",
+      "tag": "v0.1.34-antimatterium-www-control-v0223-backlink",
+      "release": "https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.34-antimatterium-www-control-v0223-backlink",
+      "backlink_id": "99a1086a802c112208e85432c4de265de299595f2c5104ae86b5335d742cf50b"
+    },
+    "org_profile": {
+      "version": "0.0.32",
+      "tag": "v0.0.32-antimatterium-org-profile-control-v0223-backlink",
+      "release": "https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.32-antimatterium-org-profile-control-v0223-backlink",
+      "backlink_id": "864c8239ea2c14446bbe81f14c89170ac8891134e12e593a47968073407af826"
+    }
+  },
+  "short_public_tag_required": true,
+  "no_local_root_required": true,
+  "safety": {
+    "no_current_production_claim": true,
+    "no_starship_claim": true,
+    "no_physical_production_instructions": true
+  },
+  "closure_id": "fd4abe2ef7ad043517e9d065310b4ededeb625d4e0937e8b5d57eff7b85a2872"
+}
