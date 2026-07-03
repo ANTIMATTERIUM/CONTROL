@@ -579,3 +579,24 @@ Safety boundary remains explicit:
 - `NO_STARSHIP_CLAIM=true`
 - `NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true`
 <!-- ANTIMATTERIUM_MOVE48_SURFACE_BACKLINK_FANOUT_CLOSURE_END -->
+
+## ANTIMATTERIUM_MOVE50_CONTROL_V0223_SURFACE_BACKLINK_FANOUT_CLOSURE
+
+CONTROL v0.2.23 records the public closure of the Move 49 surface backlink fanout.
+
+Bound public inputs:
+
+- CONTROL v0.2.22 closure release: https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.22-antimatterium-control-move47-surface-closure
+- CONTROL v0.2.22 verify CI: https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/28534121995
+- Core v0.2.37 backlink release: https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.37-antimatterium-control-v0222-backlink
+- WWW v0.1.33 backlink release: https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.33-antimatterium-www-control-v0222-backlink
+- Org profile v0.0.31 backlink release: https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.31-antimatterium-org-profile-control-v0222-backlink
+
+Flags:
+
+- ANTIMATTERIUM_SHORT_PUBLIC_TAG_REQUIRED=true
+- ANTIMATTERIUM_NO_LOCAL_ROOT_REQUIRED=true
+- NO_CURRENT_PRODUCTION_CLAIM=true
+- NO_STARSHIP_CLAIM=true
+- NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true
+

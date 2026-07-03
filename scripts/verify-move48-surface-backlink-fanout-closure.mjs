@@ -7,7 +7,7 @@ const pkg = JSON.parse(fs.readFileSync(new URL('../package.json', import.meta.ur
 
 test('CONTROL closes Move 47 public surface backlink fanout', () => {
   assert.equal(pkg.name, '@antimatterium/control');
-  assert.equal(pkg.version, '0.2.22');
+  assert.ok(['0.2.22', '0.2.23'].includes(pkg.version));
   assert.equal(receipt.package_name, '@antimatterium/control');
   assert.equal(receipt.package_version, '0.2.22');
   assert.equal(receipt.public_tag, 'v0.2.22-antimatterium-control-move47-surface-closure');
