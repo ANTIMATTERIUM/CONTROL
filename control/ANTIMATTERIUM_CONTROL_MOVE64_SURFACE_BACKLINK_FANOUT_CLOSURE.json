@@ -1,0 +1,42 @@
+{
+  "schema": "antimatterium.control_surface_backlink_fanout_closure_receipt.v1",
+  "move": 64,
+  "control_version": "0.2.30",
+  "control_public_tag": "v0.2.30-antimatterium-control-move63-surface-closure",
+  "prior_control": {
+    "version": "0.2.29",
+    "public_tag": "v0.2.29-antimatterium-control-move61-surface-closure",
+    "release": "https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.29-antimatterium-control-move61-surface-closure",
+    "verify_ci_run": "https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/28706590644",
+    "closure_id": "cc3254bf684790e5b5e88b947b35ef1ff5796cba9dcf827234ec08114d40d67c"
+  },
+  "surface_backlinks": {
+    "core": {
+      "version": "0.2.44",
+      "public_tag": "v0.2.44-antimatterium-control-v0229-backlink",
+      "release": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.44-antimatterium-control-v0229-backlink",
+      "backlink_id": "c19dfefc5dc203b19ea726bba2987705a13a9bff8f70b43ed77d4a9b685c26e7"
+    },
+    "www": {
+      "version": "0.1.40",
+      "public_tag": "v0.1.40-antimatterium-www-control-v0229-backlink",
+      "release": "https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.40-antimatterium-www-control-v0229-backlink",
+      "backlink_id": "1f2c9df8075c89c6cfce4f8a807b52e313a6d8711631c934e193464e2291c2ae"
+    },
+    "org_profile": {
+      "version": "0.0.38",
+      "public_tag": "v0.0.38-antimatterium-org-profile-control-v0229-backlink",
+      "release": "https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.38-antimatterium-org-profile-control-v0229-backlink",
+      "backlink_id": "f2119453983e2812b87c9b0821d8fd71ca728f8d1007039e83dd1fb5b20d51d4"
+    }
+  },
+  "closure_scope": "control_closes_move63_public_surface_backlink_fanout",
+  "short_public_tag_required": true,
+  "no_local_root_required": true,
+  "safety": {
+    "no_current_production_claim": true,
+    "no_starship_claim": true,
+    "no_physical_production_instructions": true
+  },
+  "closure_id": "f36f9955746671dcb6a799939c27c6b579dd10be6dc939714feb06d5872a27ea"
+}
