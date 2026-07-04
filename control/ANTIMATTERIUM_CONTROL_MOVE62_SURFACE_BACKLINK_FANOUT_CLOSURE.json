@@ -1,0 +1,42 @@
+{
+  "schema": "antimatterium.control_surface_backlink_fanout_closure_receipt.v1",
+  "move": 62,
+  "control_version": "0.2.29",
+  "control_public_tag": "v0.2.29-antimatterium-control-move61-surface-closure",
+  "prior_control": {
+    "version": "0.2.28",
+    "public_tag": "v0.2.28-antimatterium-control-move59-surface-closure",
+    "release": "https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.28-antimatterium-control-move59-surface-closure",
+    "verify_ci_run": "https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/28706320665",
+    "closure_id": "0baab5144c52e311f9f2c75b41198fd36c5ea512a861be374cddc8452f378671"
+  },
+  "surface_backlinks": {
+    "core": {
+      "version": "0.2.43",
+      "public_tag": "v0.2.43-antimatterium-control-v0228-backlink",
+      "release": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.43-antimatterium-control-v0228-backlink",
+      "backlink_id": "d8214afe35a399057787514c2786665028a8f65491750406741d521329bc635f"
+    },
+    "www": {
+      "version": "0.1.39",
+      "public_tag": "v0.1.39-antimatterium-www-control-v0228-backlink",
+      "release": "https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.39-antimatterium-www-control-v0228-backlink",
+      "backlink_id": "7cf006f082445cc6ad6d76b0c3d091b156e89c40022423c76bf5863168ff3a44"
+    },
+    "org_profile": {
+      "version": "0.0.37",
+      "public_tag": "v0.0.37-antimatterium-org-profile-control-v0228-backlink",
+      "release": "https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.37-antimatterium-org-profile-control-v0228-backlink",
+      "backlink_id": "2c351b5159bd5bcd1f5d3180ef51ec1ae06457978690061755729c748337bbe8"
+    }
+  },
+  "closure_scope": "control_closes_public_surface_backlink_fanout",
+  "short_public_tag_required": true,
+  "no_local_root_required": true,
+  "safety": {
+    "no_current_production_claim": true,
+    "no_starship_claim": true,
+    "no_physical_production_instructions": true
+  },
+  "closure_id": "cc3254bf684790e5b5e88b947b35ef1ff5796cba9dcf827234ec08114d40d67c"
+}
