@@ -1,0 +1,42 @@
+{
+  "schema": "antimatterium.control_surface_backlink_fanout_closure_receipt.v1",
+  "move": 60,
+  "control_version": "0.2.28",
+  "control_public_tag": "v0.2.28-antimatterium-control-move59-surface-closure",
+  "prior_control": {
+    "version": "0.2.27",
+    "public_tag": "v0.2.27-antimatterium-control-move57-surface-closure",
+    "release": "https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.27-antimatterium-control-move57-surface-closure",
+    "verify_ci_run": "https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/28705916342",
+    "closure_id": "a2641f70f738ae3e5959f8f1c46f4c8328a938b59a8112afbbff6702758691ba"
+  },
+  "surface_backlinks": {
+    "core": {
+      "version": "0.2.42",
+      "public_tag": "v0.2.42-antimatterium-control-v0227-backlink",
+      "release": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.42-antimatterium-control-v0227-backlink",
+      "backlink_id": "84b3bc590a2205f7e454fdd8f0598eef906b4768d98b3dae212e53180c5792ad"
+    },
+    "www": {
+      "version": "0.1.38",
+      "public_tag": "v0.1.38-antimatterium-www-control-v0227-backlink",
+      "release": "https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.38-antimatterium-www-control-v0227-backlink",
+      "backlink_id": "3474233f57f492980f136b5e5d9df0946499cc64e09a06aa59c2283f3d7f816d"
+    },
+    "org_profile": {
+      "version": "0.0.36",
+      "public_tag": "v0.0.36-antimatterium-org-profile-control-v0227-backlink",
+      "release": "https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.36-antimatterium-org-profile-control-v0227-backlink",
+      "backlink_id": "a0fcf65320c2a2ef628f148d07fa4a44b3904557323df877f240c15988a18428"
+    }
+  },
+  "closure_scope": "control_closes_public_surface_backlink_fanout",
+  "short_public_tag_required": true,
+  "no_local_root_required": true,
+  "safety": {
+    "no_current_production_claim": true,
+    "no_starship_claim": true,
+    "no_physical_production_instructions": true
+  },
+  "closure_id": "0baab5144c52e311f9f2c75b41198fd36c5ea512a861be374cddc8452f378671"
+}
