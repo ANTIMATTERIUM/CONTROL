@@ -1,0 +1,49 @@
+{
+  "closes_move": 65,
+  "closure_id": "ed2ac2e0ae68635986a07084622f3ae9a2fc746995b1aaf11846913bad8d9c8d",
+  "control_release_tag": "v0.2.31-antimatterium-control-move65-surface-closure",
+  "control_version": "0.2.31",
+  "move": 66,
+  "prior_control": {
+    "closure_id": "f36f9955746671dcb6a799939c27c6b579dd10be6dc939714feb06d5872a27ea",
+    "release": "https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.30-antimatterium-control-move63-surface-closure",
+    "tag": "v0.2.30-antimatterium-control-move63-surface-closure",
+    "verify_ci_run": "https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/28707158589",
+    "version": "0.2.30"
+  },
+  "public_replay": {
+    "move65_surface_backlinks_replayed": true,
+    "no_local_root_required": true,
+    "short_public_tag_required": true
+  },
+  "safety_boundary": {
+    "no_current_production_claim": true,
+    "no_physical_production_instructions": true,
+    "no_starship_claim": true
+  },
+  "schema": "antimatterium.control.public_surface_backlink_fanout_closure.v1",
+  "status": "CONTROL_PUBLIC_SURFACE_BACKLINK_FANOUT_CLOSURE_RECORDED",
+  "surface_fanout": {
+    "core": {
+      "backlink_id": "9689749f667d9470e2d098b2fd7d1f4a37e2b6921dccb21ec3b2b7266f8b9467",
+      "release": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.45-antimatterium-control-v0230-backlink",
+      "test_alias": "test:move65-control-v0230-backlink",
+      "verify_alias": "verify:move65-control-v0230-backlink",
+      "version": "0.2.45"
+    },
+    "org_profile": {
+      "backlink_id": "d71a04c6391e04b0674d3cdc78955255611b11ee85ebdf8bc34ef1b4b712adf3",
+      "release": "https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.39-antimatterium-org-profile-control-v0230-backlink",
+      "test_alias": "test:move65-control-v0230-backlink",
+      "verify_alias": "verify:move65-control-v0230-backlink",
+      "version": "0.0.39"
+    },
+    "www": {
+      "backlink_id": "d3ce7a0c0968788b6934672066dea7a957637c1465eaed725a672da7eeb40007",
+      "release": "https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.41-antimatterium-www-control-v0230-backlink",
+      "test_alias": "test:move65-control-v0230-backlink",
+      "verify_alias": "verify:move65-control-v0230-backlink",
+      "version": "0.1.41"
+    }
+  }
+}

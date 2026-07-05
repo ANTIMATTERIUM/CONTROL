@@ -755,3 +755,30 @@ ANTIMATTERIUM_NO_LOCAL_ROOT_REQUIRED=true
 NO_CURRENT_PRODUCTION_CLAIM=true
 NO_STARSHIP_CLAIM=true
 NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true
+
+## Move 66 — CONTROL closes Move 65 public surface backlink fanout
+
+CONTROL v0.2.31 closes the Move 65 public surface backlink fanout from CONTROL v0.2.30 across Core v0.2.45, WWW v0.1.41, and org profile v0.0.39.
+
+Public closure receipt:
+
+- CONTROL release: https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.31-antimatterium-control-move65-surface-closure
+- Prior CONTROL release: https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.30-antimatterium-control-move63-surface-closure
+- Prior CONTROL verify CI: https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/28707158589
+- Core release: https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.45-antimatterium-control-v0230-backlink
+- WWW release: https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.41-antimatterium-www-control-v0230-backlink
+- Org profile release: https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.39-antimatterium-org-profile-control-v0230-backlink
+- Move 66 closure ID: `ed2ac2e0ae68635986a07084622f3ae9a2fc746995b1aaf11846913bad8d9c8d`
+
+Flags:
+
+```text
+ANTIMATTERIUM_MOVE66_CONTROL_PUBLIC_SURFACE_BACKLINK_FANOUT_CLOSURE_COMPLETE=true
+ANTIMATTERIUM_MOVE66_PUBLIC_SURFACE_BACKLINK_FANOUT_CLOSED=true
+ANTIMATTERIUM_MOVE66_PUBLIC_SURFACE_BACKLINK_FANOUT_CLOSURE_AUDIT_PASS=true
+ANTIMATTERIUM_SHORT_PUBLIC_TAG_REQUIRED=true
+ANTIMATTERIUM_NO_LOCAL_ROOT_REQUIRED=true
+NO_CURRENT_PRODUCTION_CLAIM=true
+NO_STARSHIP_CLAIM=true
+NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true
+````
