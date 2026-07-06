@@ -842,3 +842,23 @@ CONTROL v0.2.34 closes the Move 71 public surface backlink fanout from CONTROL v
 - NO_CURRENT_PRODUCTION_CLAIM=true
 - NO_STARSHIP_CLAIM=true
 - NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true
+
+## Move 74 — CONTROL closes Move 73 public surface backlink fanout
+
+CONTROL v0.2.35 closes the Move 73 public surface backlink fanout.
+
+- Prior CONTROL release: https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.34-antimatterium-control-move71-surface-closure
+- Prior CONTROL CI: https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/28814745469
+- Prior CONTROL closure ID: c9af607f2cdaa3d88e0ff3c9abfeab7deaa031e38e48e75af3dbdfa0f738687b
+- Core release: https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.49-antimatterium-control-v0234-backlink
+- WWW release: https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.45-antimatterium-www-control-v0234-backlink
+- Org profile release: https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.43-antimatterium-org-profile-control-v0234-backlink
+- Core backlink ID: aa29f6557667c26be9680eddfe81cde31a1ead586d8d1831c04e436558f520f3
+- WWW backlink ID: 36a06a1af016dced71ed704201490562e438e2af885e083c8026fcd3ebf10548
+- Org profile backlink ID: 72fb0dd95579e32ff1143d2f0e2df6fd3aff5f9c50e35b4dad11763dda37f2c6
+- Move 74 closure ID: 2585bfc44100f7684c5ea9ac876dc522b0329df829fb4bfb35ee0fcf09cd351f
+- ANTIMATTERIUM_SHORT_PUBLIC_TAG_REQUIRED=true
+- ANTIMATTERIUM_NO_LOCAL_ROOT_REQUIRED=true
+- NO_CURRENT_PRODUCTION_CLAIM=true
+- NO_STARSHIP_CLAIM=true
+- NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true
