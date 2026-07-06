@@ -1,0 +1,47 @@
+{
+  "claims": {
+    "no_current_production_claim": true,
+    "no_local_root_required": true,
+    "no_physical_production_instructions": true,
+    "no_starship_claim": true,
+    "short_public_tag_required": true
+  },
+  "closes_surface_move": 75,
+  "closure": {
+    "closed_move": 75,
+    "source": "CONTROL public closure",
+    "type": "control_public_surface_backlink_fanout_closure"
+  },
+  "closure_id": "990f14ef8c10ba7e83a50d4dc693ab4aa44483d9d2bc1f306aa49f0259d6812d",
+  "control_tag": "v0.2.36-antimatterium-control-move75-surface-closure",
+  "control_version": "0.2.36",
+  "move": 76,
+  "prior_control": {
+    "ci_run": "https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/28817843561",
+    "closure_id": "2585bfc44100f7684c5ea9ac876dc522b0329df829fb4bfb35ee0fcf09cd351f",
+    "release": "https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.35-antimatterium-control-move73-surface-closure",
+    "tag": "v0.2.35-antimatterium-control-move73-surface-closure",
+    "version": "0.2.35"
+  },
+  "schema": "antimatterium.control.public_surface_backlink_fanout_closure.receipt.v1",
+  "surfaces": {
+    "core": {
+      "backlink_id": "a56cd46dc7dd7d61a55de4d2137f5fa8703c551c61700cac223833a944ff6464",
+      "release": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.50-antimatterium-control-v0235-backlink",
+      "tag": "v0.2.50-antimatterium-control-v0235-backlink",
+      "version": "0.2.50"
+    },
+    "org_profile": {
+      "backlink_id": "06acd3d0c1f4ef483dcdfe90697f8189203c8c5156b1e57a81b7fe5649c629a9",
+      "release": "https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.44-antimatterium-org-profile-control-v0235-backlink",
+      "tag": "v0.0.44-antimatterium-org-profile-control-v0235-backlink",
+      "version": "0.0.44"
+    },
+    "www": {
+      "backlink_id": "990a25dc7da43d5ec3235d11c621f53e6e81a12d591c03fc3351f311e4598cd5",
+      "release": "https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.46-antimatterium-www-control-v0235-backlink",
+      "tag": "v0.1.46-antimatterium-www-control-v0235-backlink",
+      "version": "0.1.46"
+    }
+  }
+}
