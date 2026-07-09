@@ -1,0 +1,48 @@
+{
+  "schema": "antimatterium.control.move92.surface_backlink_fanout_closure.v1",
+  "move": 92,
+  "closes_move": 91,
+  "package": "@antimatterium/control",
+  "version": "0.2.44",
+  "source_control": {
+    "version": "0.2.43",
+    "tag": "v0.2.43-antimatterium-control-move89-surface-closure",
+    "release": "https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.43-antimatterium-control-move89-surface-closure",
+    "ci_run": "https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/29045944783",
+    "closure_id": "f433b1fa1c47217bffbd8561ffa1547ae30629b3ef5ee9c6d94fccdaf679548e"
+  },
+  "surfaces": {
+    "core": {
+      "package": "@antimatterium/antimatterium",
+      "version": "0.2.58",
+      "tag": "v0.2.58-antimatterium-control-v0243-backlink",
+      "release": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.58-antimatterium-control-v0243-backlink",
+      "backlink_id": "d5a4ed5ae56e95aab3c2acd2a6e44619aca88b18e6860290218e681b9e7e40f0"
+    },
+    "www": {
+      "package": "@antimatterium/www",
+      "version": "0.1.54",
+      "tag": "v0.1.54-antimatterium-www-control-v0243-backlink",
+      "release": "https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.54-antimatterium-www-control-v0243-backlink",
+      "backlink_id": "6d8e6e66bba6468800625040a5256131a0357c55f889c32e74e4de58ce6701b1"
+    },
+    "org_profile": {
+      "package": "@antimatterium/org-profile",
+      "version": "0.0.52",
+      "tag": "v0.0.52-antimatterium-org-profile-control-v0243-backlink",
+      "release": "https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.52-antimatterium-org-profile-control-v0243-backlink",
+      "backlink_id": "7093487b83d8235ecf727634e0e01d7b2b775405f9eb87955107402163e390ee"
+    }
+  },
+  "closure": {
+    "move91_surface_backlinks_replayed": true,
+    "short_public_tag_required": true,
+    "no_local_root_required": true,
+    "id": "12b7a23e6b4691c991c4a4321b299fc963120a35b22c362e466b66121eddab54"
+  },
+  "safety": {
+    "no_current_production_claim": true,
+    "no_starship_claim": true,
+    "no_physical_production_instructions": true
+  }
+}
