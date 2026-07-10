@@ -1054,3 +1054,22 @@ CONTROL v0.2.45 closes the Move 93 fanout from CONTROL v0.2.44 into Core, WWW, a
 - No current production claim: true
 - No starship claim: true
 - No physical production instructions: true
+
+## Move 96 — CONTROL v0.2.46 closes Move 95 public surface backlink fanout
+
+Move 96 closes the Move 95 public surface backlink fanout from CONTROL v0.2.45 into:
+
+- Core v0.2.60
+- WWW v0.1.56
+- Org profile v0.0.54
+
+The closure is bounded to public release evidence, replayable verifier output, short public tags, and rootless reconstruction. It does not assert current physical production, starship readiness, or physical production instructions.
+
+Verifier:
+
+```bash
+npm run verify:move96-surface-backlink-fanout-closure
+npm run audit:move96-surface-backlink-fanout-closure
+npm run test:move96-surface-backlink-fanout-closure
+````
+

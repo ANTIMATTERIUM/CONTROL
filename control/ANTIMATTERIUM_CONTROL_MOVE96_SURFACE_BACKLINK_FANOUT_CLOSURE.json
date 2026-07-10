@@ -1,0 +1,50 @@
+{
+  "protocol": "ANTIMATTERIUM_CONTROL_PUBLIC_SURFACE_BACKLINK_FANOUT_CLOSURE",
+  "move": 96,
+  "closes": "Move 95 public surface backlink fanout",
+  "control": {
+    "version": "0.2.46",
+    "package": "@antimatterium/control",
+    "source_release": "https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.45-antimatterium-control-move93-surface-closure",
+    "source_ci_run": "https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/29114333184",
+    "source_closure_id": "a233a9b9a989b021c008843e9a9947af74a27127debb13cd6539cc284cc23b03"
+  },
+  "fanout": [
+    {
+      "surface": "core",
+      "package": "@antimatterium/antimatterium",
+      "version": "0.2.60",
+      "release": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.60-antimatterium-control-v0245-backlink",
+      "backlink_id": "ef3d3629b0369f26be44e5b7b833baa9a8e7a85194f9a689def40e1298428e1f"
+    },
+    {
+      "surface": "www",
+      "package": "@antimatterium/www",
+      "version": "0.1.56",
+      "release": "https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.56-antimatterium-www-control-v0245-backlink",
+      "backlink_id": "366e451002d513247e641b6a90b4fc6d3b987f296f756a740565a7801723905a"
+    },
+    {
+      "surface": "org-profile",
+      "package": "@antimatterium/org-profile",
+      "version": "0.0.54",
+      "release": "https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.54-antimatterium-org-profile-control-v0245-backlink",
+      "backlink_id": "34878b717c3ccdd246a25eb829c85a87ac66af56ad23ef507aa961e7c7b94848"
+    }
+  ],
+  "constraints": {
+    "short_public_tag_required": true,
+    "no_local_root_required": true,
+    "no_current_production_claim": true,
+    "no_starship_claim": true,
+    "no_physical_production_instructions": true
+  },
+  "closure": {
+    "id": "1ddee463650c95cccec7babc8bae95f389c5f75880fc9aeb40a32a7f29b4d33d",
+    "release_tag": "v0.2.46-antimatterium-control-move95-surface-closure",
+    "receipt_path": "control/ANTIMATTERIUM_CONTROL_MOVE96_SURFACE_BACKLINK_FANOUT_CLOSURE.json",
+    "verifier": "scripts/verify-move96-surface-backlink-fanout-closure.mjs",
+    "audit": "scripts/move96-surface-backlink-fanout-closure-audit.sh",
+    "test": "tests/move96-surface-backlink-fanout-closure.test.mjs"
+  }
+}
