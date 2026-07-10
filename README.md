@@ -1094,3 +1094,24 @@ CONTROL v0.2.47 closes the Move 97 public surface backlink fanout.
 - No current production claim: true
 - No starship claim: true
 - No physical production instructions: true
+
+
+## Move 100 — CONTROL v0.2.48 closes Move 99 fanout
+
+CONTROL v0.2.48 closes the Move 99 public surface backlink fanout.
+
+- Previous CONTROL release: https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.47-antimatterium-control-move97-surface-closure
+- Previous CONTROL CI: https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/29121927208
+- Previous CONTROL closure ID: d0d96d476693d7cc05e1a2c6f4467afaeae1711d5dd426944f78cd0e60789874
+- Core release: https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.62-antimatterium-control-v0247-backlink
+- Core backlink ID: a6e585ae0c31cf7ebe2a301bec2eba5b1b39a85bbddcf8c5c8f478dcb77138d2
+- WWW release: https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.58-antimatterium-www-control-v0247-backlink
+- WWW backlink ID: 6be0be82cdfecec6a319604688180db339e64fcb1ea873f030e1efca0db0194f
+- Org profile release: https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.56-antimatterium-org-profile-control-v0247-backlink
+- Org profile backlink ID: 3aa39959e3a7b7e4d53ba8eae3d164d22532de1a892e8a5d28705476170d61b1
+- Move 100 closure ID: 5b65cc86664000ddedcd539e13ad893e6c88e8912f5785a0163c408bb1624132
+- Short public tag required: true
+- No local root required: true
+- No current production claim: true
+- No starship claim: true
+- No physical production instructions: true
