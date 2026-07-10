@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { spawnSync } from 'node:child_process';
+
+test('Move 94 CONTROL closure verifier exits cleanly', () => {
+  const result = spawnSync(process.execPath, ['scripts/verify-move94-surface-backlink-fanout-closure.mjs'], { encoding: 'utf8' });
+  assert.equal(result.status, 0, result.stderr || result.stdout);
+  assert.match(result.stdout, /ANTIMATTERIUM_CONTROL_MOVE94_SURFACE_BACKLINK_FANOUT_CLOSURE_VERIFY_PASS=true/);
+  assert.match(result.stdout, /MOVE94_SURFACE_BACKLINK_FANOUT_CLOSURE_ID=a233a9b9a989b021c008843e9a9947af74a27127debb13cd6539cc284cc23b03/);
+});
