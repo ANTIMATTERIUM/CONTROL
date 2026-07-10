@@ -1,0 +1,56 @@
+{
+  "protocol": "ANTIMATTERIUM_CONTROL_PUBLIC_SURFACE_BACKLINK_FANOUT_CLOSURE",
+  "move": 98,
+  "closes": "Move 97 public surface backlink fanout",
+  "control": {
+    "package": "@antimatterium/control",
+    "version": "0.2.47",
+    "release_tag": "v0.2.47-antimatterium-control-move97-surface-closure",
+    "source_release": "https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.46-antimatterium-control-move95-surface-closure",
+    "source_ci_run": "https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/29121293151",
+    "source_closure_id": "1ddee463650c95cccec7babc8bae95f389c5f75880fc9aeb40a32a7f29b4d33d",
+    "source_main_sha": "138c6d4497a0be4a493452bdd7b4ecf7098f6356"
+  },
+  "fanout": [
+    {
+      "surface": "core",
+      "package": "@antimatterium/antimatterium",
+      "version": "0.2.61",
+      "release": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.61-antimatterium-control-v0246-backlink",
+      "tag": "v0.2.61-antimatterium-control-v0246-backlink",
+      "backlink_id": "df8df22c35ef57a793cdb57033d05ebc2c0ba9abd3b072fd6bed6520d2421b6c"
+    },
+    {
+      "surface": "www",
+      "package": "@antimatterium/www",
+      "version": "0.1.57",
+      "release": "https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.57-antimatterium-www-control-v0246-backlink",
+      "tag": "v0.1.57-antimatterium-www-control-v0246-backlink",
+      "backlink_id": "7ae73e20982f4964076c7ac8394c534451da0701d8f9ce35c6148d2d6857c392"
+    },
+    {
+      "surface": "org-profile",
+      "package": "@antimatterium/org-profile",
+      "version": "0.0.55",
+      "release": "https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.55-antimatterium-org-profile-control-v0246-backlink",
+      "tag": "v0.0.55-antimatterium-org-profile-control-v0246-backlink",
+      "backlink_id": "ff1268359260e2e4e336eb5f26f861bd83446179b9ab68a8c5134ce37d3e27ce"
+    }
+  ],
+  "constraints": {
+    "short_public_tag_required": true,
+    "no_local_root_required": true,
+    "no_current_production_claim": true,
+    "no_starship_claim": true,
+    "no_physical_production_instructions": true
+  },
+  "closure": {
+    "id": "d0d96d476693d7cc05e1a2c6f4467afaeae1711d5dd426944f78cd0e60789874",
+    "kind": "move98_control_public_surface_backlink_fanout_closure",
+    "release_tag": "v0.2.47-antimatterium-control-move97-surface-closure",
+    "receipt_path": "control/ANTIMATTERIUM_CONTROL_MOVE98_SURFACE_BACKLINK_FANOUT_CLOSURE.json",
+    "verifier": "scripts/verify-move98-surface-backlink-fanout-closure.mjs",
+    "audit": "scripts/move98-surface-backlink-fanout-closure-audit.sh",
+    "test": "tests/move98-surface-backlink-fanout-closure.test.mjs"
+  }
+}

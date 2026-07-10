@@ -1073,3 +1073,24 @@ npm run audit:move96-surface-backlink-fanout-closure
 npm run test:move96-surface-backlink-fanout-closure
 ````
 
+
+
+## Move 98 — CONTROL closes Move 97 public surface backlink fanout
+
+CONTROL v0.2.47 closes the Move 97 public surface backlink fanout.
+
+- Source CONTROL release: https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.46-antimatterium-control-move95-surface-closure
+- Source CONTROL CI: https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/29121293151
+- Source CONTROL closure ID: 1ddee463650c95cccec7babc8bae95f389c5f75880fc9aeb40a32a7f29b4d33d
+- Core release: https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.61-antimatterium-control-v0246-backlink
+- WWW release: https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.57-antimatterium-www-control-v0246-backlink
+- Org profile release: https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.55-antimatterium-org-profile-control-v0246-backlink
+- Core backlink ID: df8df22c35ef57a793cdb57033d05ebc2c0ba9abd3b072fd6bed6520d2421b6c
+- WWW backlink ID: 7ae73e20982f4964076c7ac8394c534451da0701d8f9ce35c6148d2d6857c392
+- Org profile backlink ID: ff1268359260e2e4e336eb5f26f861bd83446179b9ab68a8c5134ce37d3e27ce
+- Move 98 closure ID: d0d96d476693d7cc05e1a2c6f4467afaeae1711d5dd426944f78cd0e60789874
+- Short public tag required: true
+- No local root required: true
+- No current production claim: true
+- No starship claim: true
+- No physical production instructions: true
