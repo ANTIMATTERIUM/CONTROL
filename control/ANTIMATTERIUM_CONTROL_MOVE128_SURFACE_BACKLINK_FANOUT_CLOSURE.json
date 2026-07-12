@@ -1,0 +1,54 @@
+{
+  "schema": "antimatterium.control_surface_backlink_fanout_closure.v1",
+  "move": 124,
+  "package": {
+    "name": "@antimatterium/control",
+    "version": "0.2.62",
+    "tag": "v0.2.62-antimatterium-control-move127-surface-closure",
+    "release": "https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.62-antimatterium-control-move127-surface-closure"
+  },
+  "source_authority": {
+    "control_version": "0.2.61",
+    "control_tag": "v0.2.61-antimatterium-control-move125-surface-closure",
+    "control_release": "https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.61-antimatterium-control-move125-surface-closure",
+    "verify_ci_run": "https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/29205745933",
+    "main_sha": "2e514a95c2fda3c46a63eab206b3a3dee2459f4b",
+    "closure_id": "9d1a849ced65fff3f4df4794c906575976131659581bdbbeb9d051b554513e45"
+  },
+  "surface_fanout": {
+    "core": {
+      "version": "0.2.76",
+      "tag": "v0.2.76-antimatterium-control-v0261-backlink",
+      "release": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.76-antimatterium-control-v0261-backlink",
+      "main_sha": "77243ea4ce7b2e127216caef3f54e9ba49ed2179",
+      "backlink_id": "3868c24230fb64df5e49eb7492becdfd5f3f68581b39a0bffc6507d013428ace"
+    },
+    "www": {
+      "version": "0.1.72",
+      "tag": "v0.1.72-antimatterium-www-control-v0261-backlink",
+      "release": "https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.72-antimatterium-www-control-v0261-backlink",
+      "main_sha": "3c75b67621cc71e064b21376e32c2497360bd72f",
+      "backlink_id": "59d02ae226be19af900f34c6e151032400c657c2f3a2cc46f714ef21f146df3b"
+    },
+    "org_profile": {
+      "version": "0.0.70",
+      "tag": "v0.0.70-antimatterium-org-profile-control-v0261-backlink",
+      "release": "https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.70-antimatterium-org-profile-control-v0261-backlink",
+      "main_sha": "33eec3157db0eef6272864a177728a0368598df7",
+      "backlink_id": "057af08838911166e0ab5261aadb4110d2402b0748ea8bb12aeb470ca1765e9f"
+    }
+  },
+  "closure": {
+    "move127_surface_backlinks_bound": true,
+    "exact_public_tag_commits_required": true,
+    "external_replay_required": true,
+    "short_public_tag_required": true,
+    "no_local_root_required": true
+  },
+  "safety": {
+    "no_current_production_claim": true,
+    "no_starship_claim": true,
+    "no_physical_production_instructions": true
+  },
+  "closure_id": "007e29815bc5e5ce89ab28897268ece2d61a503cc08b4add7a9a758249444edb"
+}
