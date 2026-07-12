@@ -1,0 +1,66 @@
+{
+  "protocol": "ANTIMATTERIUM_CONTROL_MOVE112_SURFACE_BACKLINK_FANOUT_CLOSURE",
+  "move": 112,
+  "control": {
+    "package": "@antimatterium/control",
+    "version": "0.2.54",
+    "release_tag": "v0.2.54-antimatterium-control-move111-surface-closure",
+    "role": "public_surface_backlink_fanout_closure"
+  },
+  "source_control": {
+    "version": "0.2.53",
+    "release_tag": "v0.2.53-antimatterium-control-move109-surface-closure",
+    "release": "https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.53-antimatterium-control-move109-surface-closure",
+    "ci_run": "https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/29155447375",
+    "main_sha": "fcaa2d7c60d5debe679adf899ed769a044dcfbc5",
+    "closure_id": "2730270edff7e1ea62cc00c253ae32e0eed2559a47509efe7dea2655cfdd04a7"
+  },
+  "closed_surface_fanout": {
+    "move": 111,
+    "control_v0253_bound": true,
+    "surfaces": [
+      {
+        "key": "core",
+        "repository": "ANTIMATTERIUM/ANTIMATTERIUM",
+        "package": "@antimatterium/antimatterium",
+        "version": "0.2.68",
+        "release_tag": "v0.2.68-antimatterium-control-v0253-backlink",
+        "release": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.68-antimatterium-control-v0253-backlink",
+        "backlink_id": "acfb83e951098c7bf6641c91565ab6485eeb56cabfa536cbd5b5f19364b1daf1"
+      },
+      {
+        "key": "www",
+        "repository": "ANTIMATTERIUM/WWW",
+        "package": "@antimatterium/www",
+        "version": "0.1.64",
+        "release_tag": "v0.1.64-antimatterium-www-control-v0253-backlink",
+        "release": "https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.64-antimatterium-www-control-v0253-backlink",
+        "backlink_id": "cf66a45147f746681d692c5763cb5e8b39bb9c9b980a1e177e4f9dac193e7c70"
+      },
+      {
+        "key": "org_profile",
+        "repository": "ANTIMATTERIUM/.github",
+        "package": "@antimatterium/org-profile",
+        "version": "0.0.62",
+        "release_tag": "v0.0.62-antimatterium-org-profile-control-v0253-backlink",
+        "release": "https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.62-antimatterium-org-profile-control-v0253-backlink",
+        "backlink_id": "22bed1a287b290fc0219a40e0ac9aea349b9752b6210daa54064b467123ae2e3"
+      }
+    ]
+  },
+  "closure": {
+    "move111_public_surface_backlink_fanout_closed": true,
+    "control_v0253_closure_replayed": true,
+    "all_surface_releases_bound": true,
+    "all_surface_backlink_ids_bound": true,
+    "replayable_without_local_root": true
+  },
+  "constraints": {
+    "short_public_tag_required": true,
+    "no_local_root_required": true,
+    "no_current_production_claim": true,
+    "no_starship_claim": true,
+    "no_physical_production_instructions": true
+  },
+  "closure_id": "ebfc24685134a4fb66c15bf9ec149a0d1a4ec8c98871f9684c0cb73447e751a6"
+}
