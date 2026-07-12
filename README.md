@@ -1326,3 +1326,31 @@ CONTROL 0.2.56 closes the Move 115 public surface backlink fanout from CONTROL 0
 - No current production claim: true
 - No starship claim: true
 - No physical production instructions: true
+
+<!-- ANTIMATTERIUM MOVE 118 CONTROL SURFACE BACKLINK FANOUT CLOSURE -->
+## Move 118 — CONTROL closure for Move 117 surface fanout
+
+CONTROL v0.2.57 closes the Move 117 public surface fanout from CONTROL v0.2.56.
+
+- Source CONTROL release: https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.56-antimatterium-control-move115-surface-closure
+- Source CONTROL verify CI: https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/29196327916
+- Source CONTROL main SHA: 10f9ca7a645ce99ee98e5e5447bb9d36fd371023
+- Source CONTROL closure ID: 5b91b62a34bc1a092474a60215f0fcbd42a9deb1003105a6bf9f5c08c87fdebc
+- Core release: https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.71-antimatterium-control-v0256-backlink
+- Core backlink ID: 5b111f52b32c421c7c3d0179a7d417be4716c95c8b57952e6243d210c0837bfd
+- WWW release: https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.67-antimatterium-www-control-v0256-backlink
+- WWW backlink ID: 8f5ce7eb77862788c5abcc5066a9f197c4c789307dc2ada485e74c5ef2057cf8
+- Org profile release: https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.65-antimatterium-org-profile-control-v0256-backlink
+- Org profile backlink ID: 2e5322ce89a5883d434f6632ee9b6fdf1deb575a8d6fc75f6807769234a04a79
+- Closure receipt: `control/ANTIMATTERIUM_CONTROL_MOVE118_SURFACE_BACKLINK_FANOUT_CLOSURE.json`
+- Closure verifier: `npm run verify:move118-surface-backlink-fanout-closure`
+- Closure audit: `npm run audit:move118-surface-backlink-fanout-closure`
+
+```text
+ANTIMATTERIUM_SHORT_PUBLIC_TAG_REQUIRED=true
+ANTIMATTERIUM_NO_LOCAL_ROOT_REQUIRED=true
+NO_CURRENT_PRODUCTION_CLAIM=true
+NO_STARSHIP_CLAIM=true
+NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true
+```
+<!-- /ANTIMATTERIUM MOVE 118 CONTROL SURFACE BACKLINK FANOUT CLOSURE -->
