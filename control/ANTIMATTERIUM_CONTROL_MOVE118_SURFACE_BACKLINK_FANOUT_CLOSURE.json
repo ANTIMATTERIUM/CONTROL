@@ -1,0 +1,46 @@
+{
+  "protocol": "ANTIMATTERIUM_CONTROL_MOVE118_SURFACE_BACKLINK_FANOUT_CLOSURE",
+  "move": 118,
+  "kind": "control_public_surface_backlink_fanout_closure",
+  "controlVersion": "0.2.57",
+  "closesMove": 117,
+  "sourceControl": {
+    "version": "0.2.56",
+    "tag": "v0.2.56-antimatterium-control-move115-surface-closure",
+    "release": "https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.56-antimatterium-control-move115-surface-closure",
+    "verifyCiRun": "https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/29196327916",
+    "mainSha": "10f9ca7a645ce99ee98e5e5447bb9d36fd371023",
+    "closureId": "5b91b62a34bc1a092474a60215f0fcbd42a9deb1003105a6bf9f5c08c87fdebc"
+  },
+  "surfaces": {
+    "core": {
+      "version": "0.2.71",
+      "tag": "v0.2.71-antimatterium-control-v0256-backlink",
+      "release": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.71-antimatterium-control-v0256-backlink",
+      "backlinkId": "5b111f52b32c421c7c3d0179a7d417be4716c95c8b57952e6243d210c0837bfd"
+    },
+    "www": {
+      "version": "0.1.67",
+      "tag": "v0.1.67-antimatterium-www-control-v0256-backlink",
+      "release": "https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.67-antimatterium-www-control-v0256-backlink",
+      "backlinkId": "8f5ce7eb77862788c5abcc5066a9f197c4c789307dc2ada485e74c5ef2057cf8"
+    },
+    "orgProfile": {
+      "version": "0.0.65",
+      "tag": "v0.0.65-antimatterium-org-profile-control-v0256-backlink",
+      "release": "https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.65-antimatterium-org-profile-control-v0256-backlink",
+      "backlinkId": "2e5322ce89a5883d434f6632ee9b6fdf1deb575a8d6fc75f6807769234a04a79"
+    }
+  },
+  "assertions": {
+    "move117SurfaceBacklinksBound": true,
+    "sourceControlClosureBound": true,
+    "sourceControlVerifyCiBound": true,
+    "shortPublicTagRequired": true,
+    "noLocalRootRequired": true,
+    "noCurrentProductionClaim": true,
+    "noStarshipClaim": true,
+    "noPhysicalProductionInstructions": true
+  },
+  "closureId": "b9e403645fe18031552c192cd7ebed2c2d8e9aec070502c6d89b556aabfabf32"
+}
