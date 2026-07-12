@@ -1354,3 +1354,31 @@ NO_STARSHIP_CLAIM=true
 NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true
 ```
 <!-- /ANTIMATTERIUM MOVE 118 CONTROL SURFACE BACKLINK FANOUT CLOSURE -->
+
+## Move 120 — CONTROL closes Move 119 public surface backlink fanout
+
+CONTROL v0.2.58 closes the Move 119 public surface backlink fanout from CONTROL v0.2.57 to Core, WWW and Org profile.
+
+Source CONTROL:
+- Release: https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.57-antimatterium-control-move117-surface-closure
+- Verify CI: https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/29197125059
+- Main SHA: ad002077cc6d86bd03655ee8bec24df00f75d17d
+- Closure ID: b9e403645fe18031552c192cd7ebed2c2d8e9aec070502c6d89b556aabfabf32
+
+Surface releases:
+- Core: https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.72-antimatterium-control-v0257-backlink
+- WWW: https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.68-antimatterium-www-control-v0257-backlink
+- Org profile: https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.66-antimatterium-org-profile-control-v0257-backlink
+
+Surface backlink IDs:
+- Core: 904813a62a468852f8a1e0fd05b3a34c2959ecc9c34ce7c6248bc2ccc18aea87
+- WWW: 08488c1ef5ea6678e6c563669a73cea1a814b9d96bbc861a7fa4a045638419a8
+- Org profile: 92c036edafcc6abe1827804f09e0926d86f8b3c907915b44510cbd52484f16c7
+
+Move 120 closure ID:
+- cb9d670f584aa1a966bbcb5f2cd36aa1da7ac6bd8a68f36ac283a79d776f34dd
+
+Safety:
+- NO_CURRENT_PRODUCTION_CLAIM=true
+- NO_STARSHIP_CLAIM=true
+- NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true

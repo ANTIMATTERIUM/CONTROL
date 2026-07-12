@@ -1,0 +1,39 @@
+{
+  "doctrine": "ANTIMATTERIUM_CONTROL_PUBLIC_SURFACE_BACKLINK_FANOUT_CLOSURE",
+  "move": 120,
+  "closes_move": 119,
+  "control_version": "0.2.58",
+  "control_tag": "v0.2.58-antimatterium-control-move119-surface-closure",
+  "source_control_version": "0.2.57",
+  "source_control_tag": "v0.2.57-antimatterium-control-move117-surface-closure",
+  "source_control_release": "https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.57-antimatterium-control-move117-surface-closure",
+  "source_control_ci_run": "https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/29197125059",
+  "source_control_main_sha": "ad002077cc6d86bd03655ee8bec24df00f75d17d",
+  "source_control_closure_id": "b9e403645fe18031552c192cd7ebed2c2d8e9aec070502c6d89b556aabfabf32",
+  "core_release": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.72-antimatterium-control-v0257-backlink",
+  "www_release": "https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.68-antimatterium-www-control-v0257-backlink",
+  "org_profile_release": "https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.66-antimatterium-org-profile-control-v0257-backlink",
+  "core_tag": "v0.2.72-antimatterium-control-v0257-backlink",
+  "www_tag": "v0.1.68-antimatterium-www-control-v0257-backlink",
+  "org_profile_tag": "v0.0.66-antimatterium-org-profile-control-v0257-backlink",
+  "core_backlink_id": "904813a62a468852f8a1e0fd05b3a34c2959ecc9c34ce7c6248bc2ccc18aea87",
+  "www_backlink_id": "08488c1ef5ea6678e6c563669a73cea1a814b9d96bbc861a7fa4a045638419a8",
+  "org_profile_backlink_id": "92c036edafcc6abe1827804f09e0926d86f8b3c907915b44510cbd52484f16c7",
+  "short_public_tag_required": true,
+  "no_local_root_required": true,
+  "no_current_production_claim": true,
+  "no_starship_claim": true,
+  "no_physical_production_instructions": true,
+  "closure_id": "cb9d670f584aa1a966bbcb5f2cd36aa1da7ac6bd8a68f36ac283a79d776f34dd",
+  "verification": {
+    "source_control_release_bound": true,
+    "surface_releases_bound": true,
+    "surface_backlink_ids_bound": true,
+    "replayable_without_local_root": true
+  },
+  "safety": {
+    "no_current_production_claim": true,
+    "no_starship_claim": true,
+    "no_physical_production_instructions": true
+  }
+}
