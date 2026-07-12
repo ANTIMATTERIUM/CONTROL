@@ -1,0 +1,54 @@
+{
+  "protocol": "ANTIMATTERIUM_CONTROL_MOVE116_SURFACE_BACKLINK_FANOUT_CLOSURE",
+  "move": 116,
+  "closes_move": 115,
+  "control_closure": {
+    "package": "@antimatterium/control",
+    "version": "0.2.56",
+    "release_tag": "v0.2.56-antimatterium-control-move115-surface-closure"
+  },
+  "source_control": {
+    "version": "0.2.55",
+    "release_tag": "v0.2.55-antimatterium-control-move113-surface-closure",
+    "release": "https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.55-antimatterium-control-move113-surface-closure",
+    "ci_run": "https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/29194891663",
+    "main_sha": "f579904b1e8ce500661393d25b9016fa7b58bec1",
+    "closure_id": "cac92a90fe4ba3a089dda110d5d929814d5fae242961cae18e1ada9cf733e7ab"
+  },
+  "surface_backlinks": {
+    "core": {
+      "version": "0.2.70",
+      "release_tag": "v0.2.70-antimatterium-control-v0255-backlink",
+      "release": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.70-antimatterium-control-v0255-backlink",
+      "backlink_id": "42bad1271fae9a2d8af79e6a69fcdeecb88bd6f984c8672017ae001791502059"
+    },
+    "www": {
+      "version": "0.1.66",
+      "release_tag": "v0.1.66-antimatterium-www-control-v0255-backlink",
+      "release": "https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.66-antimatterium-www-control-v0255-backlink",
+      "backlink_id": "a61e25e38d45861a8de0caadfa6767cfca68cf933068c315beb24034f65d7c1c"
+    },
+    "org_profile": {
+      "version": "0.0.64",
+      "release_tag": "v0.0.64-antimatterium-org-profile-control-v0255-backlink",
+      "release": "https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.64-antimatterium-org-profile-control-v0255-backlink",
+      "backlink_id": "10252b4d19d3477e3ff415f43a942ec764c78d1da0775f643e55327d0b46ec52"
+    }
+  },
+  "closure": {
+    "move115_surface_fanout_closed": true,
+    "source_control_release_bound": true,
+    "source_control_ci_bound": true,
+    "all_surface_releases_bound": true,
+    "all_surface_backlink_ids_bound": true,
+    "replayable_without_local_root": true
+  },
+  "constraints": {
+    "short_public_tag_required": true,
+    "no_local_root_required": true,
+    "no_current_production_claim": true,
+    "no_starship_claim": true,
+    "no_physical_production_instructions": true
+  },
+  "closure_id": "5b91b62a34bc1a092474a60215f0fcbd42a9deb1003105a6bf9f5c08c87fdebc"
+}
