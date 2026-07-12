@@ -1415,3 +1415,34 @@ Safety boundary:
 - NO_CURRENT_PRODUCTION_CLAIM=true
 - NO_STARSHIP_CLAIM=true
 - NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true
+
+## Move 124 — CONTROL closes Move 123 public surface backlink fanout
+
+CONTROL v0.2.60 closes the Move 123 public-surface backlink fanout.
+
+Source authority:
+
+- CONTROL v0.2.59 release: https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.59-antimatterium-control-move121-surface-closure
+- Successful verify CI: https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/29204415342
+- Main SHA: 2272ea956e06360479736d5ba822022597ee78e8
+- Closure ID: 4633ac517d2311b52f13e3021a7949c711463504b2c682647433db4f95d62ba5
+
+Bound public surfaces:
+
+- Core v0.2.74: https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.74-antimatterium-control-v0259-backlink
+- WWW v0.1.70: https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.70-antimatterium-www-control-v0259-backlink
+- Org profile v0.0.68: https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.68-antimatterium-org-profile-control-v0259-backlink
+
+Move 124 closure ID:
+
+- 236db452d82fe9fa222877afda4987e13583504e87a044860477476caffb771d
+
+Boundary:
+
+- Exact public tag commits required: true
+- External replay required: true
+- Short public tag required: true
+- No local root required: true
+- No current production claim: true
+- No starship claim: true
+- No physical production instructions: true
