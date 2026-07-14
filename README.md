@@ -1539,3 +1539,34 @@ Boundary:
 - No current production claim: true
 - No starship claim: true
 - No physical production instructions: true
+
+## Move 132 — CONTROL closes Move 131 public surface backlink fanout
+
+CONTROL v0.2.64 closes the Move 131 public-surface backlink fanout.
+
+Source authority:
+
+- CONTROL v0.2.63 release: https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.63-antimatterium-control-move129-surface-closure
+- Successful verify CI: https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/29206398893
+- Main SHA: afada789807ee3333e6c45a6f29aff5790d5ea05
+- Closure ID: 94889ea04b57855f99f8cff464dc287b3ca518a9f0d38732dd3adc7e26040c05
+
+Bound public surfaces:
+
+- Core v0.2.78: https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.78-antimatterium-control-v0263-backlink
+- WWW v0.1.74: https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.74-antimatterium-www-control-v0263-backlink
+- Org profile v0.0.72: https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.72-antimatterium-org-profile-control-v0263-backlink
+
+Move 132 closure ID:
+
+- 0d825bba6e10b333ca0ce5d613b5c0c151a340d6ab4cc6ba485175545d44952e
+
+Boundary:
+
+- Exact public tag commits required: true
+- External replay required: true
+- Short public tag required: true
+- No local root required: true
+- No current production claim: true
+- No starship claim: true
+- No physical production instructions: true
