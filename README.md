@@ -1725,3 +1725,44 @@ Boundary:
 - No current production claim: true
 - No starship claim: true
 - No physical production instructions: true
+
+## Move 144 — additive ordinal ontology correction and Move 143 closure
+
+CONTROL v0.2.70 closes the Move 143 public-surface backlink fanout and publishes an additive correction for inherited receipt/verifier ordinal drift.
+
+Historical evidence status:
+
+- Move 124 is the valid source template.
+- Moves 126, 128, 130, 132, 134, 136, 138, 140, and 142 inherited an internal declared move value of 124.
+- Existing receipts, verifiers, tags, releases, closure IDs, and release bindings remain preserved as historical evidence.
+- Move 144 supersedes the affected ordinal semantics only; it does not rewrite or delete historical tagged evidence.
+
+Source authority:
+
+- CONTROL v0.2.69 release: https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.69-antimatterium-control-move141-surface-closure
+- Successful verify CI: https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/29655274264
+- Main SHA: e78622f490ae36a2b2c4bb672191d5c4d2b90659
+- Closure ID: 63c59d3b79e4d34cec2f33f72fc898aba3e8a1311f664f62b247107054b2b31d
+- Evidence status: historical authority with known ordinal drift
+
+Bound public surfaces:
+
+- Core v0.2.84: https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.84-antimatterium-control-v0269-backlink
+- WWW v0.1.80: https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.80-antimatterium-www-control-v0269-backlink
+- Org profile v0.0.78: https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.78-antimatterium-org-profile-control-v0269-backlink
+- Core backlink ID: 3e61d04f6514637200f25fc2386185996173a3431f16e78e841fbf03bd383c14
+- WWW backlink ID: d2dee8f8f445b6027e2d789fb3139501ea720074814e09bf348da4f65abbd313
+- Org profile backlink ID: 7422db968eac4d1dda7cea72a3985581ef28aa8ece97c66f0cf5306183a66b1e
+
+Boundary:
+
+- Additive supersession required: true
+- Historical tags immutable: true
+- Legacy evidence preservation required: true
+- Exact public tag commits required: true
+- External replay required: true
+- Short public tag required: true
+- No local root required: true
+- No current production claim: true
+- No starship claim: true
+- No physical production instructions: true
