@@ -1,0 +1,197 @@
+{
+  "schema": "antimatterium.control_surface_backlink_fanout_closure_ontology_correction.v1",
+  "move": 144,
+  "package": {
+    "name": "@antimatterium/control",
+    "version": "0.2.70",
+    "tag": "v0.2.70-antimatterium-control-move143-surface-closure",
+    "release": "https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.70-antimatterium-control-move143-surface-closure"
+  },
+  "source_authority": {
+    "control_version": "0.2.69",
+    "control_tag": "v0.2.69-antimatterium-control-move141-surface-closure",
+    "control_release": "https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.69-antimatterium-control-move141-surface-closure",
+    "verify_ci_run": "https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/29655274264",
+    "main_sha": "e78622f490ae36a2b2c4bb672191d5c4d2b90659",
+    "closure_id": "63c59d3b79e4d34cec2f33f72fc898aba3e8a1311f664f62b247107054b2b31d",
+    "evidence_status": "historical_authority_with_known_ordinal_drift"
+  },
+  "surface_fanout": {
+    "core": {
+      "version": "0.2.84",
+      "tag": "v0.2.84-antimatterium-control-v0269-backlink",
+      "release": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.84-antimatterium-control-v0269-backlink",
+      "main_sha": "1db9e83f7f8448a362e2f985f48f8be4d0657a95",
+      "backlink_id": "3e61d04f6514637200f25fc2386185996173a3431f16e78e841fbf03bd383c14"
+    },
+    "www": {
+      "version": "0.1.80",
+      "tag": "v0.1.80-antimatterium-www-control-v0269-backlink",
+      "release": "https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.80-antimatterium-www-control-v0269-backlink",
+      "main_sha": "dbd2b99da519afde09e23e27b66e0a53a6165c40",
+      "backlink_id": "d2dee8f8f445b6027e2d789fb3139501ea720074814e09bf348da4f65abbd313"
+    },
+    "org_profile": {
+      "version": "0.0.78",
+      "tag": "v0.0.78-antimatterium-org-profile-control-v0269-backlink",
+      "release": "https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.78-antimatterium-org-profile-control-v0269-backlink",
+      "main_sha": "6deb49a150c54ad90379673d80b046f3acb7d974",
+      "backlink_id": "7422db968eac4d1dda7cea72a3985581ef28aa8ece97c66f0cf5306183a66b1e"
+    }
+  },
+  "ontology_correction": {
+    "type": "additive_supersession",
+    "defect": "inherited_move_ordinal_124",
+    "affected_moves": [
+      126,
+      128,
+      130,
+      132,
+      134,
+      136,
+      138,
+      140,
+      142
+    ],
+    "legacy_declared_move": 124,
+    "corrected_current_move": 144,
+    "legacy_receipts_preserved": true,
+    "legacy_verifiers_preserved": true,
+    "historical_tags_immutable": true,
+    "supersedes_ordinal_semantics_only": true,
+    "release_bindings_remain_authoritative": true,
+    "evidence": [
+      {
+        "filename_move": 126,
+        "declared_move": 124,
+        "verifier_object_move": 124,
+        "verifier_check_move": 124,
+        "package_version": "0.2.61",
+        "package_tag": "v0.2.61-antimatterium-control-move125-surface-closure",
+        "closure_id": "9d1a849ced65fff3f4df4794c906575976131659581bdbbeb9d051b554513e45",
+        "receipt_path": "control/ANTIMATTERIUM_CONTROL_MOVE126_SURFACE_BACKLINK_FANOUT_CLOSURE.json",
+        "verifier_path": "scripts/verify-move126-surface-backlink-fanout-closure.mjs",
+        "receipt_sha256": "46d7e6c753ea67d6d1131b29d06a014e3040a264f6ca1f9af3542337aace8035",
+        "verifier_sha256": "49554d9f54a966a17d163d033cc9fc76514ba8caa0a9b649a204b12eb3596139"
+      },
+      {
+        "filename_move": 128,
+        "declared_move": 124,
+        "verifier_object_move": 124,
+        "verifier_check_move": 124,
+        "package_version": "0.2.62",
+        "package_tag": "v0.2.62-antimatterium-control-move127-surface-closure",
+        "closure_id": "007e29815bc5e5ce89ab28897268ece2d61a503cc08b4add7a9a758249444edb",
+        "receipt_path": "control/ANTIMATTERIUM_CONTROL_MOVE128_SURFACE_BACKLINK_FANOUT_CLOSURE.json",
+        "verifier_path": "scripts/verify-move128-surface-backlink-fanout-closure.mjs",
+        "receipt_sha256": "eb16b4fb6a8b2d57ffa7bbc4be31f4af7d4e2cae017a29c6f37b9b7090e315ad",
+        "verifier_sha256": "3eb32165f2bbcaaf95d93b0494137c197bdee444bc4a9681d0f42f15f4bd141f"
+      },
+      {
+        "filename_move": 130,
+        "declared_move": 124,
+        "verifier_object_move": 124,
+        "verifier_check_move": 124,
+        "package_version": "0.2.63",
+        "package_tag": "v0.2.63-antimatterium-control-move129-surface-closure",
+        "closure_id": "94889ea04b57855f99f8cff464dc287b3ca518a9f0d38732dd3adc7e26040c05",
+        "receipt_path": "control/ANTIMATTERIUM_CONTROL_MOVE130_SURFACE_BACKLINK_FANOUT_CLOSURE.json",
+        "verifier_path": "scripts/verify-move130-surface-backlink-fanout-closure.mjs",
+        "receipt_sha256": "c1a4f4e01c6eefc87488f9faf9495f0d4cb7fe71daee5a6a1a1767c36fa8909d",
+        "verifier_sha256": "82103d7eb20a5149e4d3c24de3e5543f7d96a0135dc81626bdf8e2711fa43af2"
+      },
+      {
+        "filename_move": 132,
+        "declared_move": 124,
+        "verifier_object_move": 124,
+        "verifier_check_move": 124,
+        "package_version": "0.2.64",
+        "package_tag": "v0.2.64-antimatterium-control-move131-surface-closure",
+        "closure_id": "0d825bba6e10b333ca0ce5d613b5c0c151a340d6ab4cc6ba485175545d44952e",
+        "receipt_path": "control/ANTIMATTERIUM_CONTROL_MOVE132_SURFACE_BACKLINK_FANOUT_CLOSURE.json",
+        "verifier_path": "scripts/verify-move132-surface-backlink-fanout-closure.mjs",
+        "receipt_sha256": "acd09f63547af3fe2f5dde1b069c360b7f961fe101f6cc049168950601c4e4c0",
+        "verifier_sha256": "6300f8e20dfc27d4fd388ea8b88b536661577085320e3c621c5f2b3e6ff87469"
+      },
+      {
+        "filename_move": 134,
+        "declared_move": 124,
+        "verifier_object_move": 124,
+        "verifier_check_move": 124,
+        "package_version": "0.2.65",
+        "package_tag": "v0.2.65-antimatterium-control-move133-surface-closure",
+        "closure_id": "0e5c9918ca4ba76f44577b62549888dadad5464cdc170e5ed7b7835b9107fbd0",
+        "receipt_path": "control/ANTIMATTERIUM_CONTROL_MOVE134_SURFACE_BACKLINK_FANOUT_CLOSURE.json",
+        "verifier_path": "scripts/verify-move134-surface-backlink-fanout-closure.mjs",
+        "receipt_sha256": "6c463a11db0d6ffdf6caab5b3b49df48de207e85fdd27d8ee9517d06c923109e",
+        "verifier_sha256": "9243404a65530c060da5be39ed065622c5cfa7c3784422bc34e742d675bfe81d"
+      },
+      {
+        "filename_move": 136,
+        "declared_move": 124,
+        "verifier_object_move": 124,
+        "verifier_check_move": 124,
+        "package_version": "0.2.66",
+        "package_tag": "v0.2.66-antimatterium-control-move135-surface-closure",
+        "closure_id": "383ec0b39d241554ed32fce6765cf5c511d4e08e77fe125b309c1cd559dd71c3",
+        "receipt_path": "control/ANTIMATTERIUM_CONTROL_MOVE136_SURFACE_BACKLINK_FANOUT_CLOSURE.json",
+        "verifier_path": "scripts/verify-move136-surface-backlink-fanout-closure.mjs",
+        "receipt_sha256": "bd19baff6af1bc20fb6a82021ebe9a6275bdb0d80d398371416659e8ec8b9a9c",
+        "verifier_sha256": "bb261defcbc199b78091f900c4eb81454b3a77320c103fd410b353afdcd7da97"
+      },
+      {
+        "filename_move": 138,
+        "declared_move": 124,
+        "verifier_object_move": 124,
+        "verifier_check_move": 124,
+        "package_version": "0.2.67",
+        "package_tag": "v0.2.67-antimatterium-control-move137-surface-closure",
+        "closure_id": "fbc4bbb9a4f22f09657e0a5e9c9e1c6061e8640272e6c87dfc6b20933f3014a1",
+        "receipt_path": "control/ANTIMATTERIUM_CONTROL_MOVE138_SURFACE_BACKLINK_FANOUT_CLOSURE.json",
+        "verifier_path": "scripts/verify-move138-surface-backlink-fanout-closure.mjs",
+        "receipt_sha256": "d5949ea53eb5351aa5904090fb31590a871d2d62323178468c24809b1be5df33",
+        "verifier_sha256": "6a251232da968b8f2b0fe897fe83b84ed8c66bf60419e773c97e63f9b9440ab8"
+      },
+      {
+        "filename_move": 140,
+        "declared_move": 124,
+        "verifier_object_move": 124,
+        "verifier_check_move": 124,
+        "package_version": "0.2.68",
+        "package_tag": "v0.2.68-antimatterium-control-move139-surface-closure",
+        "closure_id": "d952f0926fbb5036879e354b301b8a17a77bb1088a133be7494590ad69de2b1e",
+        "receipt_path": "control/ANTIMATTERIUM_CONTROL_MOVE140_SURFACE_BACKLINK_FANOUT_CLOSURE.json",
+        "verifier_path": "scripts/verify-move140-surface-backlink-fanout-closure.mjs",
+        "receipt_sha256": "c15c63bb25a0451927204da4e4a375f7d4f4258dd254f2f4fb095ca0c1c50f26",
+        "verifier_sha256": "5733943e641e7ef9ca262b7d561f50a675ce55e8dd8b4e0df33467628b9ed66a"
+      },
+      {
+        "filename_move": 142,
+        "declared_move": 124,
+        "verifier_object_move": 124,
+        "verifier_check_move": 124,
+        "package_version": "0.2.69",
+        "package_tag": "v0.2.69-antimatterium-control-move141-surface-closure",
+        "closure_id": "63c59d3b79e4d34cec2f33f72fc898aba3e8a1311f664f62b247107054b2b31d",
+        "receipt_path": "control/ANTIMATTERIUM_CONTROL_MOVE142_SURFACE_BACKLINK_FANOUT_CLOSURE.json",
+        "verifier_path": "scripts/verify-move142-surface-backlink-fanout-closure.mjs",
+        "receipt_sha256": "72e47a7433670a13f83b97ad38a7e27f0771a76ec346613e7f7a2c894dd93f53",
+        "verifier_sha256": "ce59ea683f96e8275c35e6359d0d7af858e1e3791cdb7d60b9ed1fa4c40523c2"
+      }
+    ]
+  },
+  "closure": {
+    "move143_surface_backlinks_bound": true,
+    "exact_public_tag_commits_required": true,
+    "external_replay_required": true,
+    "short_public_tag_required": true,
+    "no_local_root_required": true,
+    "ordinal_ontology_corrected": true
+  },
+  "safety": {
+    "no_current_production_claim": true,
+    "no_starship_claim": true,
+    "no_physical_production_instructions": true
+  },
+  "closure_id": "cb5065903aa0107559ef43126e7abf4c1c6ca7659df257f00485f659137e0587"
+}
